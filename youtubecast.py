@@ -9,6 +9,7 @@ downloads audio + thumbnail with yt-dlp, and regenerates channel.xml
 import email.utils
 import fcntl
 import json
+import os
 import re
 import sys
 import xml.etree.ElementTree as ET
@@ -110,6 +111,10 @@ def download_episode(folder, video_id, lang=None, pubdate="upload"):
         "no_warnings": True,
         "noprogress": True,
     }
+    # Usar cookies si se ha proporcionado un archivo a través de la variable de entorno
+    cookie_file = os.environ.get("YTDLP_COOKIES_FILE")
+    if cookie_file:
+        opts["cookiefile"] = cookie_file
     if lang:
         opts["extractor_args"] = {"youtube": {"lang": [lang]}}
     with yt_dlp.YoutubeDL(opts) as ydl:

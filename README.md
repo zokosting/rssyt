@@ -1,7 +1,7 @@
 Turns video channels/playlists into audio podcast feeds. 
 
 ## Based on youtubecast
-###MIT License
+MIT License
 
 Copyright (c) 2026 Nikita Prokopov
 

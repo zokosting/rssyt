@@ -34,6 +34,8 @@ jobs:
           chmod 600 /tmp/cookies.txt
 
       - name: Ejecutar youtubecast
+        env:
+          YTDLP_COOKIES_FILE: /tmp/cookies.txt
         run: python youtubecast.py
 
       - name: Commit y push de los cambios
