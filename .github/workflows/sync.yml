@@ -34,7 +34,7 @@ jobs:
           chmod 600 /tmp/cookies.txt
 
       - name: Ejecutar youtubecast
-        run: python youtubecast.py --cookies /tmp/cookies.txt
+        run: python youtubecast.py
 
       - name: Commit y push de los cambios
         run: |
