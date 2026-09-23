@@ -2,15 +2,15 @@ name: Sync YouTube Podcast
 
 on:
   schedule:
-    # Una vez al día, a las 08:00 UTC (09:00/10:00 en España según época del año)
+    # Una vez al día, a las 08:00 UTC
     - cron: '0 8 * * *'
-  workflow_dispatch: # Permite ejecutarlo manualmente desde la pestaña Actions
+  workflow_dispatch: # Permite ejecutarlo manualmente
 
 jobs:
   sync:
     runs-on: ubuntu-latest
     permissions:
-      contents: write # Necesario para hacer commit y push de los archivos
+      contents: write 
 
     steps:
       - name: Checkout del repositorio
