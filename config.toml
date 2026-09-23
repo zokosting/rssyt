@@ -3,11 +3,6 @@ root     = "podcasts"
 backlog  = 5
 
 [[podcasts]]
-url    = "https://www.youtube.com/playlist?list=PL6Qc8NWTR2o1pV8sgCtLGjDjmgosaxf9Q"
-title  = "Some Channel"
-folder = "some-channel"
-
-[[podcasts]]
 url           = "https://www.youtube.com/playlist?list=PL0123456789abcdef0123456789abcdef"
 title         = "Amigo y vecino"
 folder        = "PL6Qc8NWTR2o1pV8sgCtLGjDjmgosaxf9Q"
