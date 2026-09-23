@@ -3,9 +3,9 @@ root     = "podcasts"
 backlog  = 5
 
 [[podcasts]]
-url           = "https://www.youtube.com/playlist?list=PL0123456789abcdef0123456789abcdef"
+url           = "https://www.youtube.com/@rubensancheztw"
 title         = "Amigo y vecino"
-folder        = "PL6Qc8NWTR2o1pV8sgCtLGjDjmgosaxf9Q"
+folder        = "rubensancheztw"
 backlog       = 3
 backlog_order = "asc"
 pubdate       = "download"
