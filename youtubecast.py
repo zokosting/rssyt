@@ -117,20 +117,30 @@ def download_channel_avatar(url, folder):
     if cover_path.exists():
         return "cover.jpg"
 
+    # Usar la URL original (sin normalizar) porque la pestaña /videos
+    # no devuelve los thumbnails del canal, solo los de los vídeos.
     opts = {
         "quiet": True,
         "no_warnings": True,
         "skip_download": True,
     }
+    cookie_file = os.environ.get("YTDLP_COOKIES_FILE")
+    if cookie_file:
+        opts["cookiefile"] = cookie_file
+
     try:
         with yt_dlp.YoutubeDL(opts) as ydl:
-            info = ydl.extract_info(normalize_url(url), download=False)
+            info = ydl.extract_info(url, download=False)
     except yt_dlp.utils.DownloadError as e:
         log(f"[avatar] no se pudo extraer metadata de {url}: {e}")
         return None
 
     thumbnails = info.get("thumbnails") or []
+    log(f"[avatar] {url} -> {len(thumbnails)} thumbnail(s): "
+        f"{[t.get('id') for t in thumbnails]}")
+
     if not thumbnails:
+        log(f"[avatar] la metadata no contiene thumbnails")
         return None
 
     # Preferimos el avatar sin recortar (máxima calidad)
@@ -144,8 +154,10 @@ def download_channel_avatar(url, folder):
         avatar_url = max(thumbnails, key=lambda t: t.get("height") or 0).get("url")
 
     if not avatar_url:
+        log(f"[avatar] no se encontró ninguna URL válida en los thumbnails")
         return None
 
+    log(f"[avatar] descargando {avatar_url}")
     try:
         urllib.request.urlretrieve(avatar_url, cover_path)
     except Exception as e:
