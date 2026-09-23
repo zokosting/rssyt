@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>La palestra candente de El Mundo Today</title>
+    <link>https://www.youtube.com/playlist?list=PLc6y_bIejLFHDP6X3OPAaDDocEHoRgmb_</link>
+    <description>La palestra candente de El Mundo Today</description>
+    <atom:link href="https://zokosting.github.io/rssyt/podcasts/RTVE Play - PLc6y_bIejLFHDP6X3OPAaDDocEHoRgmb/channel.xml" rel="self" type="application/rss+xml" />
+    <itunes:image href="https://zokosting.github.io/rssyt/podcasts/RTVE Play - PLc6y_bIejLFHDP6X3OPAaDDocEHoRgmb_logo.jpg" />
+    <image>
+      <url>https://zokosting.github.io/rssyt/podcasts/RTVE Play - PLc6y_bIejLFHDP6X3OPAaDDocEHoRgmb_logo.jpg</url>
+      <title>La palestra candente de El Mundo Today</title>
+      <link>https://www.youtube.com/playlist?list=PLc6y_bIejLFHDP6X3OPAaDDocEHoRgmb_</link>
+    </image>
+    <item>
+      <title>El histórico robo en el museo del Louvre | La palestra Candente de El mundo Today</title>
+      <description>El científico cristiano Biel Perelló, la analista Irene Minovas y el cryptoinfluencer GENZ Tomàs Fuentes analizan pormenorizadamente los tres temas más candentes del momento. 'La palestra candente' se estrena en el ente público hablando del histórico robo en el museo del Louvre. ¿Algo así podría pasar en España? El segundo tema es la deriva religiosa de Rosalía. ¿Está el cristianismo de moda o podríamos estar ante un claro caso de "Cristianbaiting"? Y por último un tema que interesa a todos los españoles, ¡son los derechos de autor una estafa? Todo esto y mucho más en 'La palestra candente', la tertulia que nos permite entender el hoy y construir el mañana.</description>
+      <link>https://www.youtube.com/watch?v=aZgo-yzQCi8</link>
+      <guid isPermaLink="false">aZgo-yzQCi8</guid>
+      <pubDate>Wed, 29 Oct 2025 16:30:01 +0000</pubDate>
+      <enclosure url="https://zokosting.github.io/rssyt/podcasts/RTVE Play - PLc6y_bIejLFHDP6X3OPAaDDocEHoRgmb/aZgo-yzQCi8.m4a" type="audio/x-m4a" length="18975433" />
+      <itunes:duration>3014</itunes:duration>
+      <itunes:image href="https://zokosting.github.io/rssyt/podcasts/RTVE Play - PLc6y_bIejLFHDP6X3OPAaDDocEHoRgmb/aZgo-yzQCi8.jpg" />
+    </item>
+  </channel>
+</rss>

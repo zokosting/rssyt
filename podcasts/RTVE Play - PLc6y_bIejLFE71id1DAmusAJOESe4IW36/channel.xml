@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Mi persona favorita con Dani Rovira y Arturo González Campos</title>
+    <link>https://www.youtube.com/playlist?list=PLc6y_bIejLFE71id1DAmusAJOESe4IW36</link>
+    <description>Mi persona favorita con Dani Rovira y Arturo González Campos</description>
+    <atom:link href="https://zokosting.github.io/rssyt/podcasts/RTVE Play - PLc6y_bIejLFE71id1DAmusAJOESe4IW36/channel.xml" rel="self" type="application/rss+xml" />
+    <itunes:image href="https://zokosting.github.io/rssyt/podcasts/RTVE Play - PLc6y_bIejLFE71id1DAmusAJOESe4IW36_logo.jpg" />
+    <image>
+      <url>https://zokosting.github.io/rssyt/podcasts/RTVE Play - PLc6y_bIejLFE71id1DAmusAJOESe4IW36_logo.jpg</url>
+      <title>Mi persona favorita con Dani Rovira y Arturo González Campos</title>
+      <link>https://www.youtube.com/playlist?list=PLc6y_bIejLFE71id1DAmusAJOESe4IW36</link>
+    </image>
+    <item>
+      <title>Lucía Solla | 1x14 | Mi persona favorita</title>
+      <description>Lucía Solla es la persona favorita de Dani y Arturo. La escritora comparte sus procesos creativos y sus miedos, como el de volar. De fondo el LP 'Aretha Live at Fillmore West', de Aretha Franklin, acompaña las ideas que van hilando al ritmo de la conversación. Y 'Comerás flores', el libro de Solla, marca los argumentos que surgen, como el hecho de llegar a situaciones o mundos a los que jamás pensábamos que llegarías. 
+
+Arturo se apunta la frase del capítulo: "el ser humano, a la segunda noche de estar en el infierno ya pide mantita para dormir". Lucía añade un matiz clave: "Cuando no entiendes algo, crees que la equivocada eres tú". Y así poco a poco -y sin hacer spoiler- van entendiendo el éxito de su ópera prima. 
+
+Un libro que ha provocado "hasta divorcios", ¿por qué? Porque es más fácil que "destapar verdades que chocan con tus principios" y anclarse en el "a mí eso nunca me pasaría", dice la autora. No te pierdas este diálogo.</description>
+      <link>https://www.youtube.com/watch?v=CDloGBn6tkc</link>
+      <guid isPermaLink="false">CDloGBn6tkc</guid>
+      <pubDate>Tue, 23 Jun 2026 18:00:16 +0000</pubDate>
+      <enclosure url="https://zokosting.github.io/rssyt/podcasts/RTVE Play - PLc6y_bIejLFE71id1DAmusAJOESe4IW36/CDloGBn6tkc.m4a" type="audio/x-m4a" length="22815026" />
+      <itunes:duration>3591</itunes:duration>
+      <itunes:image href="https://zokosting.github.io/rssyt/podcasts/RTVE Play - PLc6y_bIejLFE71id1DAmusAJOESe4IW36/CDloGBn6tkc.jpg" />
+    </item>
+  </channel>
+</rss>

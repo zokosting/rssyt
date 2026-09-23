@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Héctor de comer con Quequé</title>
+    <link>https://www.youtube.com/playlist?app=desktop&amp;list=PLc6y_bIejLFEDUZmQU50-vKse6GiORPVK</link>
+    <description>Héctor de comer con Quequé</description>
+    <atom:link href="https://zokosting.github.io/rssyt/podcasts/RTVE Play - PLc6y_bIejLFEDUZmQU50/channel.xml" rel="self" type="application/rss+xml" />
+    <itunes:image href="https://zokosting.github.io/rssyt/podcasts/RTVE Play - PLc6y_bIejLFEDUZmQU50_logo.jpg" />
+    <image>
+      <url>https://zokosting.github.io/rssyt/podcasts/RTVE Play - PLc6y_bIejLFEDUZmQU50_logo.jpg</url>
+      <title>Héctor de comer con Quequé</title>
+      <link>https://www.youtube.com/playlist?app=desktop&amp;list=PLc6y_bIejLFEDUZmQU50-vKse6GiORPVK</link>
+    </image>
+    <item>
+      <title>Quequé descubre los secretos de Broncano en la cocina | HÉCTOR DE COMER</title>
+      <description>'Héctor de Comer' se estrena como el formato se merece. Con uno de los mejores presentadores, sino el mejor, que ha podido encontrar. Héctor de Miguel y David Broncano recuperan juntos el espíritu de ‘Con las manos en la masa’ cocinando un potaje de garbanzos con calamares. Sigue en directo Open Play, de lunes a jueves a partir de las 19:30h.</description>
+      <link>https://www.youtube.com/watch?v=0gwE_ZbtIRQ</link>
+      <guid isPermaLink="false">0gwE_ZbtIRQ</guid>
+      <pubDate>Fri, 31 Oct 2025 16:30:00 +0000</pubDate>
+      <enclosure url="https://zokosting.github.io/rssyt/podcasts/RTVE Play - PLc6y_bIejLFEDUZmQU50/0gwE_ZbtIRQ.m4a" type="audio/x-m4a" length="17306091" />
+      <itunes:duration>2728</itunes:duration>
+      <itunes:image href="https://zokosting.github.io/rssyt/podcasts/RTVE Play - PLc6y_bIejLFEDUZmQU50/0gwE_ZbtIRQ.jpg" />
+    </item>
+  </channel>
+</rss>
