@@ -2,8 +2,9 @@ name: Sync YouTube Podcast
 
 on:
   schedule:
+    # Una vez al día, a las 08:00 UTC
     - cron: '0 8 * * *'
-  workflow_dispatch:
+  workflow_dispatch: # Permite ejecutarlo manualmente
 
 jobs:
   sync:
@@ -51,18 +52,24 @@ jobs:
           deno --version
           echo "=== Ejecutando youtubecast ==="
           python youtubecast.py || echo "youtubecast terminó con código $?"
-          echo "=== Contenido del directorio después de ejecutar ==="
-          ls -la
-          ls -la podcasts/ 2>/dev/null || echo "podcasts/ no existe"
+          echo "=== Tamaños de archivos descargados ==="
+          find podcasts -type f -exec ls -lh {} \; 2>/dev/null || echo "podcasts/ no existe"
 
       - name: Commit y push de los cambios
         run: |
           git config --local user.name "github-actions[bot]"
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git add -A
+
+          for path in podcasts config.toml youtubecast.lock; do
+            if [ -e "$path" ]; then
+              git add -A -- "$path"
+            fi
+          done
+
           if git diff --cached --quiet; then
-            echo "No hay cambios que commitear"
-          else
-            git commit -m "Actualización automática del podcast"
-            git push
+            echo "No hay cambios para confirmar"
+            exit 0
           fi
+
+          git commit -m "Actualización automática del podcast"
+          git push

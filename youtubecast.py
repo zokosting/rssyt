@@ -109,10 +109,20 @@ def save_episodes(folder, episodes):
 def _download_once(folder, video_id, lang=None, pubdate="upload"):
     """Realiza un único intento de descarga. Puede lanzar DownloadError."""
     opts = {
-        "format": "bestaudio[ext=m4a]/bestaudio",
+        "format": "bestaudio/best",
         "outtmpl": str(folder / "%(id)s.%(ext)s"),
         "writethumbnail": True,
-        "postprocessors": [{"key": "FFmpegThumbnailsConvertor", "format": "jpg"}],
+        "postprocessors": [
+            # Re-codifica el audio a bitrate bajo para que quepa en GitHub
+            {
+                "key": "FFmpegExtractAudio",
+                "preferredcodec": "m4a",
+                "preferredquality": "48",
+            },
+            {"key": "FFmpegThumbnailsConvertor", "format": "jpg"},
+        ],
+        # Fuerza mono (la voz no necesita estéreo)
+        "postprocessor_args": {"ffmpegextractaudio": ["-ac", "1"]},
         "quiet": True,
         "no_warnings": True,
         "noprogress": True,
