@@ -13,6 +13,7 @@ import os
 import re
 import sys
 import time
+import urllib.request
 import xml.etree.ElementTree as ET
 
 try:
@@ -104,6 +105,54 @@ def save_episodes(folder, episodes):
     (folder / "episodes.json").write_text(
         json.dumps(episodes, ensure_ascii=False, indent=2)
     )
+
+
+def download_channel_avatar(url, folder):
+    """Descarga el avatar del canal o la portada de la playlist como cover.jpg.
+
+    Devuelve el nombre del archivo (relativo a la carpeta) o None si no
+    se ha podido obtener.
+    """
+    cover_path = folder / "cover.jpg"
+    if cover_path.exists():
+        return "cover.jpg"
+
+    opts = {
+        "quiet": True,
+        "no_warnings": True,
+        "skip_download": True,
+    }
+    try:
+        with yt_dlp.YoutubeDL(opts) as ydl:
+            info = ydl.extract_info(normalize_url(url), download=False)
+    except yt_dlp.utils.DownloadError as e:
+        log(f"[avatar] no se pudo extraer metadata de {url}: {e}")
+        return None
+
+    thumbnails = info.get("thumbnails") or []
+    if not thumbnails:
+        return None
+
+    # Preferimos el avatar sin recortar (máxima calidad)
+    avatar_url = None
+    for t in thumbnails:
+        if t.get("id") == "avatar_uncropped":
+            avatar_url = t.get("url")
+            break
+    # Fallback: la miniatura de mayor resolución (útil para playlists)
+    if not avatar_url:
+        avatar_url = max(thumbnails, key=lambda t: t.get("height") or 0).get("url")
+
+    if not avatar_url:
+        return None
+
+    try:
+        urllib.request.urlretrieve(avatar_url, cover_path)
+    except Exception as e:
+        log(f"[avatar] no se pudo descargar {avatar_url}: {e}")
+        return None
+
+    return "cover.jpg"
 
 
 def _download_once(folder, video_id, lang=None, pubdate="upload"):
@@ -199,7 +248,13 @@ def write_feed(folder, podcast, base_url, episodes):
     el(channel, "title", podcast["title"])
     el(channel, "link", podcast["url"])
     el(channel, "description", podcast["title"])
-    logo_url = base_url + podcast["folder"] + "_logo.jpg"
+
+    # Imagen del podcast: avatar automático si existe, si no fallback a _logo.jpg
+    if podcast.get("cover"):
+        logo_url = podcast_url + podcast["cover"]
+    else:
+        logo_url = base_url + podcast["folder"] + "_logo.jpg"
+
     el(channel, f"{{{ATOM_NS}}}link", href=podcast_url + "channel.xml", rel="self", type="application/rss+xml")
     el(channel, f"{{{ITUNES_NS}}}image", href=logo_url)
     image = el(channel, "image")
@@ -230,6 +285,15 @@ def process_podcast(podcast, config):
     folder = Path(config["root"]) / podcast["folder"]
     folder.mkdir(parents=True, exist_ok=True)
     backlog = podcast.get("backlog", config.get("backlog", 1))
+
+    # Avatar del canal/playlist (una vez por ejecución)
+    cover = download_channel_avatar(podcast["url"], folder)
+    if cover:
+        podcast["cover"] = cover
+        log(f"[{podcast['folder']}] avatar descargado como {cover}")
+    else:
+        podcast.pop("cover", None)
+        log(f"[{podcast['folder']}] no se pudo obtener avatar, se usará _logo.jpg")
 
     backlog_order = podcast.get("backlog_order", config.get("backlog_order", "desc"))
     entries = newest_first(list_entries(podcast["url"]), backlog_order)

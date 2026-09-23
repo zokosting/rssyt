@@ -1,4 +1,4 @@
-base_url = "https://zokosting.github.io/rssyt"
+base_url = "https://zokosting.github.io/rssyt/podcasts/"
 root     = "podcasts"
 backlog  = 5
 
@@ -6,6 +6,78 @@ backlog  = 5
 url           = "https://www.youtube.com/@rubensancheztw"
 title         = "Amigo y vecino"
 folder        = "rubensancheztw"
+backlog       = 2
+backlog_order = "asc"
+pubdate       = "upload"
+
+[[podcasts]]
+url           = "https://www.youtube.com/@Caf%C3%A9Kyoto"
+title         = "Café Kyoto"
+folder        = "CafeKyoto"
+backlog       = 2
+backlog_order = "asc"
+pubdate       = "upload"
+
+[[podcasts]]
+url           = "https://www.youtube.com/@unamigomeconto"
+title         = "UN AMIGO ME CONTÓ"
+folder        = "unamigomeconto"
+backlog       = 2
+backlog_order = "desc"
+pubdate       = "upload"
+
+[[podcasts]]
+url           = "https://www.youtube.com/@ElUPod"
+title         = "El Último Podcast"
+folder        = "ElUPod"
+backlog       = 2
+backlog_order = "desc"
+pubdate       = "upload"
+
+[[podcasts]]
+url           = "https://www.youtube.com/playlist?list=PLc6y_bIejLFHEaLCRdzKumGujaaiNxEvd"
+title         = "El perro andaluz by Manu Sánchez"
+folder        = "RTVE Play - PLc6y_bIejLFHEaLCRdzKumGujaaiNxEvd"
 backlog       = 3
 backlog_order = "asc"
-pubdate       = "download"
+pubdate       = "upload"
+
+[[podcasts]]
+url           = "https://www.youtube.com/playlist?list=PLc6y_bIejLFFnoAxFqIchhODFBf5ns8bj"
+title         = "Hope! Con Javier Peña"
+folder        = "RTVE Play - PLc6y_bIejLFFnoAxFqIchhODFBf5ns8bj"
+backlog       = 1
+backlog_order = "desc"
+pubdate       = "upload"
+
+[[podcasts]]
+url           = "https://www.youtube.com/playlist?app=desktop&list=PLc6y_bIejLFEDUZmQU50-vKse6GiORPVK"
+title         = "Héctor de comer con Quequé"
+folder        = "RTVE Play - PLc6y_bIejLFEDUZmQU50"
+backlog       = 1
+backlog_order = "asc"
+pubdate       = "upload"
+
+[[podcasts]]
+url           = "https://www.youtube.com/playlist?list=PLc6y_bIejLFHDP6X3OPAaDDocEHoRgmb_"
+title         = "La palestra candente de El Mundo Today"
+folder        = "RTVE Play - PLc6y_bIejLFHDP6X3OPAaDDocEHoRgmb"
+backlog       = 1
+backlog_order = "asc"
+pubdate       = "upload"
+
+[[podcasts]]
+url           = "https://www.youtube.com/playlist?list=PLc6y_bIejLFE71id1DAmusAJOESe4IW36"
+title         = "Mi persona favorita con Dani Rovira y Arturo González Campos"
+folder        = "RTVE Play - PLc6y_bIejLFE71id1DAmusAJOESe4IW36"
+backlog       = 1
+backlog_order = "desc"
+pubdate       = "upload"
+
+[[podcasts]]
+url           = "https://www.youtube.com/playlist?list=PLc6y_bIejLFECpsPhoLtGJom6RQbVDt9J"
+title         = "Rebobinando con David Sainz"
+folder        = "RTVE Play - PLc6y_bIejLFECpsPhoLtGJom6RQbVDt9J"
+backlog       = 1
+backlog_order = "desc"
+pubdate       = "upload"
