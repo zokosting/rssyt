@@ -112,6 +112,7 @@ def download_episode(folder, video_id, lang=None, pubdate="upload"):
     }
     if lang:
         opts["extractor_args"] = {"youtube": {"lang": [lang]}}
+        opts["cookiefile"] = "/tmp/cookies.txt"   # AÑADIDO
     with yt_dlp.YoutubeDL(opts) as ydl:
         info = ydl.extract_info(f"https://www.youtube.com/watch?v={video_id}", download=True)
 
