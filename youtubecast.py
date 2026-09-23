@@ -12,6 +12,7 @@ import json
 import os
 import re
 import sys
+import time
 import xml.etree.ElementTree as ET
 
 try:
@@ -36,6 +37,11 @@ MIME_TYPES = {
     "opus": "audio/opus",
     "ogg": "audio/ogg",
 }
+
+# Error transitorio de YouTube que yt-dlp no reintenta por sí solo
+TRANSIENT_ERROR = "The page needs to be reloaded"
+MAX_RETRIES = 3
+RETRY_DELAY = 10  # segundos
 
 
 def log(msg):
@@ -100,8 +106,8 @@ def save_episodes(folder, episodes):
     )
 
 
-def download_episode(folder, video_id, lang=None, pubdate="upload"):
-    """Download audio + thumbnail for one video. Returns an episode dict."""
+def _download_once(folder, video_id, lang=None, pubdate="upload"):
+    """Realiza un único intento de descarga. Puede lanzar DownloadError."""
     opts = {
         "format": "bestaudio[ext=m4a]/bestaudio",
         "outtmpl": str(folder / "%(id)s.%(ext)s"),
@@ -110,6 +116,8 @@ def download_episode(folder, video_id, lang=None, pubdate="upload"):
         "quiet": True,
         "no_warnings": True,
         "noprogress": True,
+        # Ayuda a resolver el error "The page needs to be reloaded"
+        "remote_components": ["ejs:github"],
     }
     # Usar cookies si se ha proporcionado un archivo a través de la variable de entorno
     cookie_file = os.environ.get("YTDLP_COOKIES_FILE")
@@ -145,6 +153,23 @@ def download_episode(folder, video_id, lang=None, pubdate="upload"):
         "filesize": filepath.stat().st_size,
         "thumbnail": thumbnail.name if thumbnail.exists() else None,
     }
+
+
+def download_episode(folder, video_id, lang=None, pubdate="upload"):
+    """Descarga audio + thumbnail con reintentos ante errores transitorios."""
+    last_error = None
+    for attempt in range(1, MAX_RETRIES + 1):
+        try:
+            return _download_once(folder, video_id, lang, pubdate)
+        except yt_dlp.utils.DownloadError as e:
+            last_error = e
+            if TRANSIENT_ERROR in str(e) and attempt < MAX_RETRIES:
+                log(f"[retry] {video_id}: transient error on attempt {attempt}, "
+                    f"retrying in {RETRY_DELAY}s...")
+                time.sleep(RETRY_DELAY)
+                continue
+            raise
+    raise last_error
 
 
 def write_feed(folder, podcast, base_url, episodes):
