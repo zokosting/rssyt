@@ -107,58 +107,40 @@ def save_episodes(folder, episodes):
     )
 
 
-def download_channel_avatar(url, folder):
-    """Descarga el avatar del canal o la portada de la playlist como cover.jpg.
+def get_channel_handle(url):
+    """Extrae el handle (@nombre) de una URL de canal de YouTube.
 
-    Devuelve el nombre del archivo (relativo a la carpeta) o None si no
-    se ha podido obtener.
+    Para playlists, devuelve None (no podemos obtener el avatar del canal
+    de forma fiable sin extraer la metadata de la playlist).
+    """
+    if is_playlist(url):
+        return None
+    match = re.search(r"youtube\.com/@([^/]+)", url)
+    if match:
+        return match.group(1)
+    return None
+
+
+def download_channel_avatar(url, folder):
+    """Descarga el avatar del canal usando unavatar.io.
+
+    Mucho más fiable que extraer la metadata del canal con yt-dlp, ya que
+    no depende de cookies ni de la extracción de la página del canal.
     """
     cover_path = folder / "cover.jpg"
     if cover_path.exists():
         return "cover.jpg"
 
-    # Usar la URL original (sin normalizar) porque la pestaña /videos
-    # no devuelve los thumbnails del canal, solo los de los vídeos.
-    opts = {
-        "quiet": True,
-        "no_warnings": True,
-        "skip_download": True,
-    }
-    cookie_file = os.environ.get("YTDLP_COOKIES_FILE")
-    if cookie_file:
-        opts["cookiefile"] = cookie_file
+    handle = get_channel_handle(url)
+    if not handle:
+        log(f"[avatar] no se pudo extraer el handle de {url}, se usará _logo.jpg")
+        return None
+
+    avatar_url = f"https://unavatar.io/youtube/{handle}"
+    log(f"[avatar] descargando avatar desde {avatar_url}")
 
     try:
-        with yt_dlp.YoutubeDL(opts) as ydl:
-            info = ydl.extract_info(url, download=False)
-    except yt_dlp.utils.DownloadError as e:
-        log(f"[avatar] no se pudo extraer metadata de {url}: {e}")
-        return None
-
-    thumbnails = info.get("thumbnails") or []
-    log(f"[avatar] {url} -> {len(thumbnails)} thumbnail(s): "
-        f"{[t.get('id') for t in thumbnails]}")
-
-    if not thumbnails:
-        log(f"[avatar] la metadata no contiene thumbnails")
-        return None
-
-    # Preferimos el avatar sin recortar (máxima calidad)
-    avatar_url = None
-    for t in thumbnails:
-        if t.get("id") == "avatar_uncropped":
-            avatar_url = t.get("url")
-            break
-    # Fallback: la miniatura de mayor resolución (útil para playlists)
-    if not avatar_url:
-        avatar_url = max(thumbnails, key=lambda t: t.get("height") or 0).get("url")
-
-    if not avatar_url:
-        log(f"[avatar] no se encontró ninguna URL válida en los thumbnails")
-        return None
-
-    log(f"[avatar] descargando {avatar_url}")
-    try:
+        # unavatar.io redirige a la imagen real, urllib sigue redirecciones
         urllib.request.urlretrieve(avatar_url, cover_path)
     except Exception as e:
         log(f"[avatar] no se pudo descargar {avatar_url}: {e}")
@@ -298,7 +280,7 @@ def process_podcast(podcast, config):
     folder.mkdir(parents=True, exist_ok=True)
     backlog = podcast.get("backlog", config.get("backlog", 1))
 
-    # Avatar del canal/playlist (una vez por ejecución)
+    # Avatar del canal (una vez por ejecución)
     cover = download_channel_avatar(podcast["url"], folder)
     if cover:
         podcast["cover"] = cover
