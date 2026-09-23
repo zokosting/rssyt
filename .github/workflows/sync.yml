@@ -37,16 +37,32 @@ jobs:
         run: |
           echo "${{ secrets.YOUTUBE_COOKIES_B64 }}" | base64 -d > /tmp/cookies.txt
           chmod 600 /tmp/cookies.txt
+          wc -c /tmp/cookies.txt   # verifica que tiene contenido
 
       - name: Ejecutar youtubecast
         env:
           YTDLP_COOKIES_FILE: /tmp/cookies.txt
-        run: python youtubecast.py
+        run: |
+          echo "=== Contenido del directorio antes de ejecutar ==="
+          ls -la
+          echo "=== Versiones ==="
+          python --version
+          yt-dlp --version
+          deno --version
+          echo "=== Ejecutando youtubecast ==="
+          python youtubecast.py || echo "youtubecast terminó con código $?"
+          echo "=== Contenido del directorio después de ejecutar ==="
+          ls -la
+          ls -la podcasts/ 2>/dev/null || echo "podcasts/ no existe"
 
       - name: Commit y push de los cambios
         run: |
           git config --local user.name "github-actions[bot]"
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git add podcasts/ config.toml youtubecast.lock
-          git commit -m "Actualización automática del podcast" || exit 0
-          git push
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No hay cambios que commitear"
+          else
+            git commit -m "Actualización automática del podcast"
+            git push
+          fi
