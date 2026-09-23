@@ -122,11 +122,7 @@ def get_channel_handle(url):
 
 
 def download_channel_avatar(url, folder):
-    """Descarga el avatar del canal usando unavatar.io.
-
-    Mucho más fiable que extraer la metadata del canal con yt-dlp, ya que
-    no depende de cookies ni de la extracción de la página del canal.
-    """
+    """Descarga el avatar del canal usando unavatar.io."""
     cover_path = folder / "cover.jpg"
     if cover_path.exists():
         return "cover.jpg"
@@ -140,8 +136,17 @@ def download_channel_avatar(url, folder):
     log(f"[avatar] descargando avatar desde {avatar_url}")
 
     try:
-        # unavatar.io redirige a la imagen real, urllib sigue redirecciones
-        urllib.request.urlretrieve(avatar_url, cover_path)
+        # Añadimos un User-Agent de navegador para evitar el 403
+        req = urllib.request.Request(
+            avatar_url,
+            headers={
+                "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+                              "AppleWebKit/537.36 (KHTML, like Gecko) "
+                              "Chrome/120.0.0.0 Safari/537.36"
+            },
+        )
+        with urllib.request.urlopen(req) as response, open(cover_path, "wb") as out_file:
+            out_file.write(response.read())
     except Exception as e:
         log(f"[avatar] no se pudo descargar {avatar_url}: {e}")
         return None
