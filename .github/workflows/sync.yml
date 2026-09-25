@@ -55,14 +55,19 @@ jobs:
           echo "=== Tamaños de archivos descargados ==="
           find podcasts -type f -exec ls -lh {} \; 2>/dev/null || echo "podcasts/ no existe"
 
-      - name: Limpiar archivos temporales de yt-dlp
+      - name: Limpiar archivos temporales y de vídeo no convertidos
         run: |
           find podcasts -type f \( \
             -name "*.part" -o \
             -name "*.ytdl" -o \
             -name "*.webp" -o \
             -name "*.temp" -o \
-            -name "*.tmp" \) -print -delete
+            -name "*.tmp" -o \
+            -name "*.mp4" -o \
+            -name "*.webm" -o \
+            -name "*.mkv" -o \
+            -name "*.flv" -o \
+            -name "*.avi" \) -print -delete
 
       - name: Commit y push de los cambios
         run: |
