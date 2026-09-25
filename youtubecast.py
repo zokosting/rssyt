@@ -178,6 +178,8 @@ def _download_once(folder, video_id, lang=None, pubdate="upload"):
         "format": "bestaudio/best",
         "outtmpl": str(folder / "%(id)s.%(ext)s"),
         "writethumbnail": True,
+        # Evita dejar archivos .part si la descarga se interrumpe
+        "nopart": True,
         "postprocessors": [
             # Re-codifica el audio a bitrate bajo para que quepa en GitHub
             {
