@@ -1,0 +1,15 @@
+# Archivos temporales de yt-dlp
+*.part
+*.ytdl
+*.temp
+*.tmp
+
+# Thumbnails sin convertir (yt-dlp los convierte a .jpg en postprocessors)
+*.webp
+
+# Excepciones: no ignorar nada dentro de podcasts/ que sea un archivo final
+!podcasts/**/*.m4a
+!podcasts/**/*.jpg
+!podcasts/**/*.xml
+!podcasts/**/*.json
+!podcasts/**/*.txt
