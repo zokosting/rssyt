@@ -46,5 +46,29 @@
     "mime": "audio/x-m4a",
     "filesize": 59699725,
     "thumbnail": "JS9KbPbCx9Y.jpg"
+  },
+  {
+    "id": "nvxHqu2ubAE",
+    "title": "Un Amigo Me Contó / #21 Herramientas claves para la vida / Pepe López y Lucas Crespo.",
+    "description": "#CapCut I made this amazing video with CapCut. Open the link to try it out:  capcut.com/tools/desktop-video-editor",
+    "timestamp": 1786910536,
+    "duration": 5259,
+    "link": "https://www.youtube.com/watch?v=nvxHqu2ubAE",
+    "file": "nvxHqu2ubAE.m4a",
+    "mime": "audio/x-m4a",
+    "filesize": 64016247,
+    "thumbnail": "nvxHqu2ubAE.jpg"
+  },
+  {
+    "id": "r62u-dURIKU",
+    "title": "Un Amigo Me Contó / #22 Aprende a venderte /  Felipe Ñancupil, Pepe López y Lucas Crespo",
+    "description": "#CapCut I made this amazing video with CapCut. Open the link to try it out:  capcut.com/tools/desktop-video-editor",
+    "timestamp": 1787520263,
+    "duration": 4990,
+    "link": "https://www.youtube.com/watch?v=r62u-dURIKU",
+    "file": "r62u-dURIKU.m4a",
+    "mime": "audio/x-m4a",
+    "filesize": 60739843,
+    "thumbnail": "r62u-dURIKU.jpg"
   }
 ]
