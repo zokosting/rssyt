@@ -4,11 +4,21 @@
 *.temp
 *.tmp
 
+# Formatos de vídeo que yt-dlp podría dejar si falla el postprocesado
+*.mp4
+*.webm
+*.mkv
+*.flv
+*.avi
+
 # Thumbnails sin convertir (yt-dlp los convierte a .jpg en postprocessors)
 *.webp
 
 # Excepciones: no ignorar nada dentro de podcasts/ que sea un archivo final
 !podcasts/**/*.m4a
+!podcasts/**/*.mp3
+!podcasts/**/*.opus
+!podcasts/**/*.ogg
 !podcasts/**/*.jpg
 !podcasts/**/*.xml
 !podcasts/**/*.json
