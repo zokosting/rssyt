@@ -5,9 +5,9 @@
     <link>https://www.youtube.com/playlist?list=PLc6y_bIejLFHEaLCRdzKumGujaaiNxEvd</link>
     <description>El perro andaluz by Manu Sánchez</description>
     <atom:link href="https://zokosting.github.io/rssyt/podcasts/RTVE Play - PLc6y_bIejLFHEaLCRdzKumGujaaiNxEvd/channel.xml" rel="self" type="application/rss+xml" />
-    <itunes:image href="https://zokosting.github.io/rssyt/podcasts/RTVE Play - PLc6y_bIejLFHEaLCRdzKumGujaaiNxEvd_logo.jpg" />
+    <itunes:image href="https://zokosting.github.io/rssyt/podcasts/RTVE Play - PLc6y_bIejLFHEaLCRdzKumGujaaiNxEvd/logo.jpg" />
     <image>
-      <url>https://zokosting.github.io/rssyt/podcasts/RTVE Play - PLc6y_bIejLFHEaLCRdzKumGujaaiNxEvd_logo.jpg</url>
+      <url>https://zokosting.github.io/rssyt/podcasts/RTVE Play - PLc6y_bIejLFHEaLCRdzKumGujaaiNxEvd/logo.jpg</url>
       <title>El perro andaluz by Manu Sánchez</title>
       <link>https://www.youtube.com/playlist?list=PLc6y_bIejLFHEaLCRdzKumGujaaiNxEvd</link>
     </image>
@@ -22,6 +22,16 @@ Una realidad que en la canción tiene nombre propio, Mari Carmen, y que acaba co
       <enclosure url="https://zokosting.github.io/rssyt/podcasts/RTVE Play - PLc6y_bIejLFHEaLCRdzKumGujaaiNxEvd/KlaNk908wYU.m4a" type="audio/x-m4a" length="7953681" />
       <itunes:duration>1307</itunes:duration>
       <itunes:image href="https://zokosting.github.io/rssyt/podcasts/RTVE Play - PLc6y_bIejLFHEaLCRdzKumGujaaiNxEvd/KlaNk908wYU.jpg" />
+    </item>
+    <item>
+      <title>Mercedes Milá, ministra de Ausencia de Pelos en la Lengua | El perro andaluz</title>
+      <description>La periodista llegó al programa dispuesta a hablar de todo, sin esquivar ninguna pregunta y demostrando una vez más por qué sigue siendo una de las voces más reconocibles, libres e influyentes de la comunicación en nuestro país.</description>
+      <link>https://www.youtube.com/watch?v=Wz0jilqkZEc</link>
+      <guid isPermaLink="false">Wz0jilqkZEc</guid>
+      <pubDate>Sun, 21 Jun 2026 13:00:03 +0000</pubDate>
+      <enclosure url="https://zokosting.github.io/rssyt/podcasts/RTVE Play - PLc6y_bIejLFHEaLCRdzKumGujaaiNxEvd/Wz0jilqkZEc.m4a" type="audio/x-m4a" length="13848257" />
+      <itunes:duration>2275</itunes:duration>
+      <itunes:image href="https://zokosting.github.io/rssyt/podcasts/RTVE Play - PLc6y_bIejLFHEaLCRdzKumGujaaiNxEvd/Wz0jilqkZEc.jpg" />
     </item>
     <item>
       <title>Vanesa Martín: "Tenemos que seguir conquistando derechos" | El perro andaluz</title>

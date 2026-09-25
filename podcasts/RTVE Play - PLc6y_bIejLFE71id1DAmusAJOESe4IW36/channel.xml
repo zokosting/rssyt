@@ -5,9 +5,9 @@
     <link>https://www.youtube.com/playlist?list=PLc6y_bIejLFE71id1DAmusAJOESe4IW36</link>
     <description>Mi persona favorita con Dani Rovira y Arturo González Campos</description>
     <atom:link href="https://zokosting.github.io/rssyt/podcasts/RTVE Play - PLc6y_bIejLFE71id1DAmusAJOESe4IW36/channel.xml" rel="self" type="application/rss+xml" />
-    <itunes:image href="https://zokosting.github.io/rssyt/podcasts/RTVE Play - PLc6y_bIejLFE71id1DAmusAJOESe4IW36_logo.jpg" />
+    <itunes:image href="https://zokosting.github.io/rssyt/podcasts/RTVE Play - PLc6y_bIejLFE71id1DAmusAJOESe4IW36/logo.jpg" />
     <image>
-      <url>https://zokosting.github.io/rssyt/podcasts/RTVE Play - PLc6y_bIejLFE71id1DAmusAJOESe4IW36_logo.jpg</url>
+      <url>https://zokosting.github.io/rssyt/podcasts/RTVE Play - PLc6y_bIejLFE71id1DAmusAJOESe4IW36/logo.jpg</url>
       <title>Mi persona favorita con Dani Rovira y Arturo González Campos</title>
       <link>https://www.youtube.com/playlist?list=PLc6y_bIejLFE71id1DAmusAJOESe4IW36</link>
     </image>
@@ -24,6 +24,16 @@ Un libro que ha provocado "hasta divorcios", ¿por qué? Porque es más fácil q
       <enclosure url="https://zokosting.github.io/rssyt/podcasts/RTVE Play - PLc6y_bIejLFE71id1DAmusAJOESe4IW36/CDloGBn6tkc.m4a" type="audio/x-m4a" length="22815026" />
       <itunes:duration>3591</itunes:duration>
       <itunes:image href="https://zokosting.github.io/rssyt/podcasts/RTVE Play - PLc6y_bIejLFE71id1DAmusAJOESe4IW36/CDloGBn6tkc.jpg" />
+    </item>
+    <item>
+      <title>Salva Reina | 1x13 | Mi persona favorita</title>
+      <description>El actor y humorista Salva Reina "deja entrar al viejo" para hablar de las costumbres que cambian con la edad. Y de la resistencia a cambiar otras... Arturo, por ejemplo, sigue practicando la postura de Loto. Pero también surgen 'nuevas tradiciones', como la de irse con Dani en verano unos días de vacaciones. Salva, por su cuenta, está aprendiendo a dejarse fluir y no planificar. Y a partir de ahí, los tres en pleno podcast inician una nueva línea de pensamiento. ¿Las compartirán? Lo sabréis cuando Dani termine su reflexión sobre la importancia de quitar la corteza del pan de molde. Ojo, que mientras tanto "el viejo no deja de llamar a la puerta"; así que no les queda más remedio que convivir con él. La Sinfonía nº9 de Beethoven acompaña de fondo.</description>
+      <link>https://www.youtube.com/watch?v=7KhI3TpFZyY</link>
+      <guid isPermaLink="false">7KhI3TpFZyY</guid>
+      <pubDate>Tue, 16 Jun 2026 18:00:38 +0000</pubDate>
+      <enclosure url="https://zokosting.github.io/rssyt/podcasts/RTVE Play - PLc6y_bIejLFE71id1DAmusAJOESe4IW36/7KhI3TpFZyY.m4a" type="audio/x-m4a" length="21790744" />
+      <itunes:duration>3580</itunes:duration>
+      <itunes:image href="https://zokosting.github.io/rssyt/podcasts/RTVE Play - PLc6y_bIejLFE71id1DAmusAJOESe4IW36/7KhI3TpFZyY.jpg" />
     </item>
   </channel>
 </rss>

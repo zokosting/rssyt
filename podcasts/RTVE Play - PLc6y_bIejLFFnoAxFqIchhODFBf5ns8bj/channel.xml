@@ -5,9 +5,9 @@
     <link>https://www.youtube.com/playlist?list=PLc6y_bIejLFFnoAxFqIchhODFBf5ns8bj</link>
     <description>Hope! Con Javier Peña</description>
     <atom:link href="https://zokosting.github.io/rssyt/podcasts/RTVE Play - PLc6y_bIejLFFnoAxFqIchhODFBf5ns8bj/channel.xml" rel="self" type="application/rss+xml" />
-    <itunes:image href="https://zokosting.github.io/rssyt/podcasts/RTVE Play - PLc6y_bIejLFFnoAxFqIchhODFBf5ns8bj_logo.jpg" />
+    <itunes:image href="https://zokosting.github.io/rssyt/podcasts/RTVE Play - PLc6y_bIejLFFnoAxFqIchhODFBf5ns8bj/logo.jpg" />
     <image>
-      <url>https://zokosting.github.io/rssyt/podcasts/RTVE Play - PLc6y_bIejLFFnoAxFqIchhODFBf5ns8bj_logo.jpg</url>
+      <url>https://zokosting.github.io/rssyt/podcasts/RTVE Play - PLc6y_bIejLFFnoAxFqIchhODFBf5ns8bj/logo.jpg</url>
       <title>Hope! Con Javier Peña</title>
       <link>https://www.youtube.com/playlist?list=PLc6y_bIejLFFnoAxFqIchhODFBf5ns8bj</link>
     </image>
@@ -20,6 +20,16 @@
       <enclosure url="https://zokosting.github.io/rssyt/podcasts/RTVE Play - PLc6y_bIejLFFnoAxFqIchhODFBf5ns8bj/-vDaAzhAQls.m4a" type="audio/x-m4a" length="15179570" />
       <itunes:duration>2390</itunes:duration>
       <itunes:image href="https://zokosting.github.io/rssyt/podcasts/RTVE Play - PLc6y_bIejLFFnoAxFqIchhODFBf5ns8bj/-vDaAzhAQls.jpg" />
+    </item>
+    <item>
+      <title>El poder de la imaginación para el cambio con Melerus | Hope!</title>
+      <description>El tiktoker ambientalista, Melerus, se acerca al quinto episodio del podcast de HOPE! para charla con Javier Peña sobre las soluciones energéticas y de reforestación propuestas en la docuserie de RTVE Play. Además, charlan sobre cómo la imaginación y los pioneros son capaces de hacer una revolución.</description>
+      <link>https://www.youtube.com/watch?v=HwlGNAFpppg</link>
+      <guid isPermaLink="false">HwlGNAFpppg</guid>
+      <pubDate>Wed, 14 May 2025 18:00:20 +0000</pubDate>
+      <enclosure url="https://zokosting.github.io/rssyt/podcasts/RTVE Play - PLc6y_bIejLFFnoAxFqIchhODFBf5ns8bj/HwlGNAFpppg.m4a" type="audio/x-m4a" length="39667264" />
+      <itunes:duration>2453</itunes:duration>
+      <itunes:image href="https://zokosting.github.io/rssyt/podcasts/RTVE Play - PLc6y_bIejLFFnoAxFqIchhODFBf5ns8bj/HwlGNAFpppg.jpg" />
     </item>
   </channel>
 </rss>

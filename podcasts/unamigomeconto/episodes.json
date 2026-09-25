@@ -22,5 +22,29 @@
     "mime": "audio/x-m4a",
     "filesize": 23416196,
     "thumbnail": "p6o2L0sVj30.jpg"
+  },
+  {
+    "id": "fuoT0xK_j2s",
+    "title": "Un Amigo Me Contó / #23 Hay dos tipos de personas / Pepe López y Lucas Crespo",
+    "description": "",
+    "timestamp": 1788118909,
+    "duration": 5215,
+    "link": "https://www.youtube.com/watch?v=fuoT0xK_j2s",
+    "file": "fuoT0xK_j2s.m4a",
+    "mime": "audio/x-m4a",
+    "filesize": 63479156,
+    "thumbnail": "fuoT0xK_j2s.jpg"
+  },
+  {
+    "id": "JS9KbPbCx9Y",
+    "title": "Un Amigo Me Contó / #24 Viejas costumbres / Luis Jara, Pepe López y Lucas Crespo",
+    "description": "",
+    "timestamp": 1788722130,
+    "duration": 4904,
+    "link": "https://www.youtube.com/watch?v=JS9KbPbCx9Y",
+    "file": "JS9KbPbCx9Y.m4a",
+    "mime": "audio/x-m4a",
+    "filesize": 59699725,
+    "thumbnail": "JS9KbPbCx9Y.jpg"
   }
 ]

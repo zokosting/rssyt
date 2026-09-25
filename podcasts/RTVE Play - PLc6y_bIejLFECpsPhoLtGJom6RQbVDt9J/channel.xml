@@ -5,9 +5,9 @@
     <link>https://www.youtube.com/playlist?list=PLc6y_bIejLFECpsPhoLtGJom6RQbVDt9J</link>
     <description>Rebobinando con David Sainz</description>
     <atom:link href="https://zokosting.github.io/rssyt/podcasts/RTVE Play - PLc6y_bIejLFECpsPhoLtGJom6RQbVDt9J/channel.xml" rel="self" type="application/rss+xml" />
-    <itunes:image href="https://zokosting.github.io/rssyt/podcasts/RTVE Play - PLc6y_bIejLFECpsPhoLtGJom6RQbVDt9J_logo.jpg" />
+    <itunes:image href="https://zokosting.github.io/rssyt/podcasts/RTVE Play - PLc6y_bIejLFECpsPhoLtGJom6RQbVDt9J/logo.jpg" />
     <image>
-      <url>https://zokosting.github.io/rssyt/podcasts/RTVE Play - PLc6y_bIejLFECpsPhoLtGJom6RQbVDt9J_logo.jpg</url>
+      <url>https://zokosting.github.io/rssyt/podcasts/RTVE Play - PLc6y_bIejLFECpsPhoLtGJom6RQbVDt9J/logo.jpg</url>
       <title>Rebobinando con David Sainz</title>
       <link>https://www.youtube.com/playlist?list=PLc6y_bIejLFECpsPhoLtGJom6RQbVDt9J</link>
     </image>
@@ -20,6 +20,16 @@
       <enclosure url="https://zokosting.github.io/rssyt/podcasts/RTVE Play - PLc6y_bIejLFECpsPhoLtGJom6RQbVDt9J/o8LPeQp49pU.m4a" type="audio/x-m4a" length="22470589" />
       <itunes:duration>3541</itunes:duration>
       <itunes:image href="https://zokosting.github.io/rssyt/podcasts/RTVE Play - PLc6y_bIejLFECpsPhoLtGJom6RQbVDt9J/o8LPeQp49pU.jpg" />
+    </item>
+    <item>
+      <title>Anécdotas de las películas de animación icónicas | Rebobinando</title>
+      <description>Hay películas de animación que van mucho más allá de lo que parece. Zequio, Rebecca Vilches, Jairo Sánchez y Teresa Segura se reúnen con David Sainz para hablar de ese cine que ha marcado a varias generaciones sin importar la edad. Nostalgia, emociones puras e inevitables risas, repasan títulos inolvidables y personajes que se quedaron a vivir con nosotros. Una charla donde la animación deja de ser “solo para niños” y se convierte en “para siempre”.</description>
+      <link>https://www.youtube.com/watch?v=APEs8g4Kcjo</link>
+      <guid isPermaLink="false">APEs8g4Kcjo</guid>
+      <pubDate>Sun, 24 May 2026 16:00:07 +0000</pubDate>
+      <enclosure url="https://zokosting.github.io/rssyt/podcasts/RTVE Play - PLc6y_bIejLFECpsPhoLtGJom6RQbVDt9J/APEs8g4Kcjo.m4a" type="audio/x-m4a" length="22906234" />
+      <itunes:duration>3763</itunes:duration>
+      <itunes:image href="https://zokosting.github.io/rssyt/podcasts/RTVE Play - PLc6y_bIejLFECpsPhoLtGJom6RQbVDt9J/APEs8g4Kcjo.jpg" />
     </item>
   </channel>
 </rss>

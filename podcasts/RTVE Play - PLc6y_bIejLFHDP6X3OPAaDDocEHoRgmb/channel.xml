@@ -5,12 +5,22 @@
     <link>https://www.youtube.com/playlist?list=PLc6y_bIejLFHDP6X3OPAaDDocEHoRgmb_</link>
     <description>La palestra candente de El Mundo Today</description>
     <atom:link href="https://zokosting.github.io/rssyt/podcasts/RTVE Play - PLc6y_bIejLFHDP6X3OPAaDDocEHoRgmb/channel.xml" rel="self" type="application/rss+xml" />
-    <itunes:image href="https://zokosting.github.io/rssyt/podcasts/RTVE Play - PLc6y_bIejLFHDP6X3OPAaDDocEHoRgmb_logo.jpg" />
+    <itunes:image href="https://zokosting.github.io/rssyt/podcasts/RTVE Play - PLc6y_bIejLFHDP6X3OPAaDDocEHoRgmb/logo.jpg" />
     <image>
-      <url>https://zokosting.github.io/rssyt/podcasts/RTVE Play - PLc6y_bIejLFHDP6X3OPAaDDocEHoRgmb_logo.jpg</url>
+      <url>https://zokosting.github.io/rssyt/podcasts/RTVE Play - PLc6y_bIejLFHDP6X3OPAaDDocEHoRgmb/logo.jpg</url>
       <title>La palestra candente de El Mundo Today</title>
       <link>https://www.youtube.com/playlist?list=PLc6y_bIejLFHDP6X3OPAaDDocEHoRgmb_</link>
     </image>
+    <item>
+      <title>Europeans: you are in danger | La palestra Candente de El Mundo Today</title>
+      <description>Algo terrible está a punto de ocurrir: el IBEX está en máximos históricos, pero que España lidere el crecimiento económico de la Unión Europea no puede ser signo de nada bueno. ¿Estamos preparados para soportar esa presión? En este episodio de La Palestra Candente, Kike García, Biel Perelló, Irene Minovas y el precoz analista Tomàs Fuentes debaten sobre economía, monos, las reformas de la Casa Blanca, la descarbonización de los aviones y el futuro cónyuge de Leonor. ¿Debemos escogerlo entre todos los españoles? Es más, ¿deberíamos ponernos "presentables" (ducha, peinado, buena ropa) todos los ciudadanos mientras la princesa esté “en el mercado”?</description>
+      <link>https://www.youtube.com/watch?v=fJZSI1ioOzc</link>
+      <guid isPermaLink="false">fJZSI1ioOzc</guid>
+      <pubDate>Wed, 05 Nov 2025 16:30:14 +0000</pubDate>
+      <enclosure url="https://zokosting.github.io/rssyt/podcasts/RTVE Play - PLc6y_bIejLFHDP6X3OPAaDDocEHoRgmb/fJZSI1ioOzc.m4a" type="audio/x-m4a" length="46662066" />
+      <itunes:duration>2885</itunes:duration>
+      <itunes:image href="https://zokosting.github.io/rssyt/podcasts/RTVE Play - PLc6y_bIejLFHDP6X3OPAaDDocEHoRgmb/fJZSI1ioOzc.jpg" />
+    </item>
     <item>
       <title>El histórico robo en el museo del Louvre | La palestra Candente de El mundo Today</title>
       <description>El científico cristiano Biel Perelló, la analista Irene Minovas y el cryptoinfluencer GENZ Tomàs Fuentes analizan pormenorizadamente los tres temas más candentes del momento. 'La palestra candente' se estrena en el ente público hablando del histórico robo en el museo del Louvre. ¿Algo así podría pasar en España? El segundo tema es la deriva religiosa de Rosalía. ¿Está el cristianismo de moda o podríamos estar ante un claro caso de "Cristianbaiting"? Y por último un tema que interesa a todos los españoles, ¡son los derechos de autor una estafa? Todo esto y mucho más en 'La palestra candente', la tertulia que nos permite entender el hoy y construir el mañana.</description>

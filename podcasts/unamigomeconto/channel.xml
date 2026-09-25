@@ -31,5 +31,25 @@
       <itunes:duration>5017</itunes:duration>
       <itunes:image href="https://zokosting.github.io/rssyt/podcasts/unamigomeconto/8bHgQry6aYU.jpg" />
     </item>
+    <item>
+      <title>Un Amigo Me Contó / #24 Viejas costumbres / Luis Jara, Pepe López y Lucas Crespo</title>
+      <description />
+      <link>https://www.youtube.com/watch?v=JS9KbPbCx9Y</link>
+      <guid isPermaLink="false">JS9KbPbCx9Y</guid>
+      <pubDate>Sun, 06 Sep 2026 19:15:30 +0000</pubDate>
+      <enclosure url="https://zokosting.github.io/rssyt/podcasts/unamigomeconto/JS9KbPbCx9Y.m4a" type="audio/x-m4a" length="59699725" />
+      <itunes:duration>4904</itunes:duration>
+      <itunes:image href="https://zokosting.github.io/rssyt/podcasts/unamigomeconto/JS9KbPbCx9Y.jpg" />
+    </item>
+    <item>
+      <title>Un Amigo Me Contó / #23 Hay dos tipos de personas / Pepe López y Lucas Crespo</title>
+      <description />
+      <link>https://www.youtube.com/watch?v=fuoT0xK_j2s</link>
+      <guid isPermaLink="false">fuoT0xK_j2s</guid>
+      <pubDate>Sun, 30 Aug 2026 19:41:49 +0000</pubDate>
+      <enclosure url="https://zokosting.github.io/rssyt/podcasts/unamigomeconto/fuoT0xK_j2s.m4a" type="audio/x-m4a" length="63479156" />
+      <itunes:duration>5215</itunes:duration>
+      <itunes:image href="https://zokosting.github.io/rssyt/podcasts/unamigomeconto/fuoT0xK_j2s.jpg" />
+    </item>
   </channel>
 </rss>
