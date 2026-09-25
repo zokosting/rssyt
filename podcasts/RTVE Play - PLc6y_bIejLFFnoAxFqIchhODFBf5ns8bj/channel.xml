@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Hope! Con Javier Peña</title>
+    <link>https://www.youtube.com/playlist?list=PLc6y_bIejLFFnoAxFqIchhODFBf5ns8bj</link>
+    <description>Hope! Con Javier Peña</description>
+    <atom:link href="https://zokosting.github.io/rssyt/podcasts/RTVE Play - PLc6y_bIejLFFnoAxFqIchhODFBf5ns8bj/channel.xml" rel="self" type="application/rss+xml" />
+    <itunes:image href="https://zokosting.github.io/rssyt/podcasts/RTVE Play - PLc6y_bIejLFFnoAxFqIchhODFBf5ns8bj_logo.jpg" />
+    <image>
+      <url>https://zokosting.github.io/rssyt/podcasts/RTVE Play - PLc6y_bIejLFFnoAxFqIchhODFBf5ns8bj_logo.jpg</url>
+      <title>Hope! Con Javier Peña</title>
+      <link>https://www.youtube.com/playlist?list=PLc6y_bIejLFFnoAxFqIchhODFBf5ns8bj</link>
+    </image>
+    <item>
+      <title>Activismo y empoderamiento femenino contra el cambio climático con Inés Hernand | Hope!</title>
+      <description>La defensa indígena junto a Nemonte Nenquimo y la necesidad de erradicar la desigualdad de género para combatir la crisis climática. Activismo y empoderamiento femenino, dos de las principales defensas de la comunicadora Inés Hernand que se ha sorprendido al descubrir en el último capítulo de la docuserie de HOPE! que además son armas para combatir el cambio climático. Charla junto a Javier Peña de esta y otras historias que se conocen en el último capítulo. En Filipinas, las mujeres lideran la recuperación de manglares, en Rajastán, India, el nacimiento de niñas se celebra plantando árboles, transformando un paisaje árido en un bosque vibrante y empoderando a las nuevas generaciones. Y Norah Maguero o Jane Goodall alertan sobre la crucial importancia de la educación de las niñas como clave para restaurar el equilibrio del planeta y superar la crisis climática. Inés Hernand anima a entrar en acción y ser claves para vivir en un entorno mejor.</description>
+      <link>https://www.youtube.com/watch?v=-vDaAzhAQls</link>
+      <guid isPermaLink="false">-vDaAzhAQls</guid>
+      <pubDate>Wed, 21 May 2025 16:00:00 +0000</pubDate>
+      <enclosure url="https://zokosting.github.io/rssyt/podcasts/RTVE Play - PLc6y_bIejLFFnoAxFqIchhODFBf5ns8bj/-vDaAzhAQls.m4a" type="audio/x-m4a" length="15179570" />
+      <itunes:duration>2390</itunes:duration>
+      <itunes:image href="https://zokosting.github.io/rssyt/podcasts/RTVE Play - PLc6y_bIejLFFnoAxFqIchhODFBf5ns8bj/-vDaAzhAQls.jpg" />
+    </item>
+  </channel>
+</rss>

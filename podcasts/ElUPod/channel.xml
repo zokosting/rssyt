@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>El Último Podcast</title>
+    <link>https://www.youtube.com/@ElUPod</link>
+    <description>El Último Podcast</description>
+    <atom:link href="https://zokosting.github.io/rssyt/podcasts/ElUPod/channel.xml" rel="self" type="application/rss+xml" />
+    <itunes:image href="https://zokosting.github.io/rssyt/podcasts/ElUPod/cover.jpg" />
+    <image>
+      <url>https://zokosting.github.io/rssyt/podcasts/ElUPod/cover.jpg</url>
+      <title>El Último Podcast</title>
+      <link>https://www.youtube.com/@ElUPod</link>
+    </image>
+    <item>
+      <title>Hablamos del próximo SHOW de GALDER VARAS  | El Último Podcast #13</title>
+      <description>Nos hemos traído a uno de los cómicos más virales, existosos, talentosos y, sobre todo lo anterior: buena onda. Hoy nos acompaña el muy gracioso: Galder Varas.
+
+Instagram: https://instagram.com/ultpodcast
+Tiktok: https://tiktok.com/@elultimopodcast
+
+Dirección:
+Antonio Castelo
+Diego Egido
+
+Edición:
+EnekoEdits
+
+Artwork by:
+[Redacted]
+
+Capítulos:
+[WIP]</description>
+      <link>https://www.youtube.com/watch?v=B2CcFNfeHP4</link>
+      <guid isPermaLink="false">B2CcFNfeHP4</guid>
+      <pubDate>Sun, 22 Mar 2026 15:00:06 +0000</pubDate>
+      <enclosure url="https://zokosting.github.io/rssyt/podcasts/ElUPod/B2CcFNfeHP4.m4a" type="audio/x-m4a" length="36161534" />
+      <itunes:duration>5684</itunes:duration>
+      <itunes:image href="https://zokosting.github.io/rssyt/podcasts/ElUPod/B2CcFNfeHP4.jpg" />
+    </item>
+    <item>
+      <title>Valeria Ros | El Último Podcast #12</title>
+      <description>Después de pasar por todos lo podcasts que se han hecho en la historia de este país, por fin viene a El Último Podcast la super talentosa, divertida y exitosa: Valeria Ros
+
+
+Instagram: https://instagram.com/ultpodcast
+Tiktok: https://tiktok.com/@elultimopodcast
+
+Dirección:
+Antonio Castelo
+Diego Egido
+
+Edición:
+EnekoEdits
+
+Artwork by:
+[Redacted]
+
+Capítulos:
+[WIP]</description>
+      <link>https://www.youtube.com/watch?v=B7rIPGCIDhs</link>
+      <guid isPermaLink="false">B7rIPGCIDhs</guid>
+      <pubDate>Sun, 15 Mar 2026 15:00:06 +0000</pubDate>
+      <enclosure url="https://zokosting.github.io/rssyt/podcasts/ElUPod/B7rIPGCIDhs.m4a" type="audio/x-m4a" length="30318433" />
+      <itunes:duration>4771</itunes:duration>
+      <itunes:image href="https://zokosting.github.io/rssyt/podcasts/ElUPod/B7rIPGCIDhs.jpg" />
+    </item>
+  </channel>
+</rss>

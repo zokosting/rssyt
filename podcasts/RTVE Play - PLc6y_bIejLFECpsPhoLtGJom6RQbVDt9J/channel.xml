@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Rebobinando con David Sainz</title>
+    <link>https://www.youtube.com/playlist?list=PLc6y_bIejLFECpsPhoLtGJom6RQbVDt9J</link>
+    <description>Rebobinando con David Sainz</description>
+    <atom:link href="https://zokosting.github.io/rssyt/podcasts/RTVE Play - PLc6y_bIejLFECpsPhoLtGJom6RQbVDt9J/channel.xml" rel="self" type="application/rss+xml" />
+    <itunes:image href="https://zokosting.github.io/rssyt/podcasts/RTVE Play - PLc6y_bIejLFECpsPhoLtGJom6RQbVDt9J_logo.jpg" />
+    <image>
+      <url>https://zokosting.github.io/rssyt/podcasts/RTVE Play - PLc6y_bIejLFECpsPhoLtGJom6RQbVDt9J_logo.jpg</url>
+      <title>Rebobinando con David Sainz</title>
+      <link>https://www.youtube.com/playlist?list=PLc6y_bIejLFECpsPhoLtGJom6RQbVDt9J</link>
+    </image>
+    <item>
+      <title>De Spider-Man a Batman: nuestros superhéroes favoritos | Rebobinando</title>
+      <description>Durante años, los superhéroes se convirtieron en los reyes del cine más palomitero. Manu Partida, Cristian de la Tierra, Juan Amodeo y Kike Pérez se sientan con David Sainz para repasar ese fenómeno que lo cambió todo, desde sus primeras pelis sin CGI hasta el punto en el que estamos ahora. Entre coñas, opiniones absurdas y algún que otro fetiche con mallas, hablan de sus héroes favoritos, de las sagas que marcaron épocas y de cómo el género ha ido evolucionando…, o desgastándose con el tiempo. Una charla entre colegas sobre alter egos, villanos y calzoncillos por fuera.</description>
+      <link>https://www.youtube.com/watch?v=o8LPeQp49pU</link>
+      <guid isPermaLink="false">o8LPeQp49pU</guid>
+      <pubDate>Sun, 31 May 2026 16:00:07 +0000</pubDate>
+      <enclosure url="https://zokosting.github.io/rssyt/podcasts/RTVE Play - PLc6y_bIejLFECpsPhoLtGJom6RQbVDt9J/o8LPeQp49pU.m4a" type="audio/x-m4a" length="22470589" />
+      <itunes:duration>3541</itunes:duration>
+      <itunes:image href="https://zokosting.github.io/rssyt/podcasts/RTVE Play - PLc6y_bIejLFECpsPhoLtGJom6RQbVDt9J/o8LPeQp49pU.jpg" />
+    </item>
+  </channel>
+</rss>

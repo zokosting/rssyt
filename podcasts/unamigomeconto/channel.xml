@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>UN AMIGO ME CONTÓ</title>
+    <link>https://www.youtube.com/@unamigomeconto</link>
+    <description>UN AMIGO ME CONTÓ</description>
+    <atom:link href="https://zokosting.github.io/rssyt/podcasts/unamigomeconto/channel.xml" rel="self" type="application/rss+xml" />
+    <itunes:image href="https://zokosting.github.io/rssyt/podcasts/unamigomeconto/cover.jpg" />
+    <image>
+      <url>https://zokosting.github.io/rssyt/podcasts/unamigomeconto/cover.jpg</url>
+      <title>UN AMIGO ME CONTÓ</title>
+      <link>https://www.youtube.com/@unamigomeconto</link>
+    </image>
+    <item>
+      <title>Un Amigo Me Contó / #26 La gente puede cambiar / Oky, Pepe López y Lucas Crespo</title>
+      <description />
+      <link>https://www.youtube.com/watch?v=p6o2L0sVj30</link>
+      <guid isPermaLink="false">p6o2L0sVj30</guid>
+      <pubDate>Sun, 20 Sep 2026 21:25:06 +0000</pubDate>
+      <enclosure url="https://zokosting.github.io/rssyt/podcasts/unamigomeconto/p6o2L0sVj30.m4a" type="audio/x-m4a" length="23416196" />
+      <itunes:duration>3659</itunes:duration>
+      <itunes:image href="https://zokosting.github.io/rssyt/podcasts/unamigomeconto/p6o2L0sVj30.jpg" />
+    </item>
+    <item>
+      <title>Un Amigo Me Contó / #25 Nos estamos volviendo locos? / Pepe López y Lucas Crespo</title>
+      <description />
+      <link>https://www.youtube.com/watch?v=8bHgQry6aYU</link>
+      <guid isPermaLink="false">8bHgQry6aYU</guid>
+      <pubDate>Sun, 13 Sep 2026 19:30:50 +0000</pubDate>
+      <enclosure url="https://zokosting.github.io/rssyt/podcasts/unamigomeconto/8bHgQry6aYU.m4a" type="audio/x-m4a" length="31881552" />
+      <itunes:duration>5017</itunes:duration>
+      <itunes:image href="https://zokosting.github.io/rssyt/podcasts/unamigomeconto/8bHgQry6aYU.jpg" />
+    </item>
+  </channel>
+</rss>
