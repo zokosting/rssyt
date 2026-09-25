@@ -44,13 +44,25 @@ TRANSIENT_ERROR = "The page needs to be reloaded"
 MAX_RETRIES = 3
 RETRY_DELAY = 10  # segundos
 
+# Errores permanentes: si un vídeo falla con uno de estos patrones, se
+# marca como visto para no reintentarlo en cada ejecución.
+PERMANENT_ERRORS = (
+    "members-only",
+    "Join this channel",
+    "Private video",
+    "This video is private",
+    "has been removed",
+    "account has been terminated",
+    "not available in your country",
+)
+
 
 def log(msg):
     print(f"{datetime.now():%Y-%m-%d %H:%M:%S} {msg}", flush=True)
 
 
 def is_playlist(url):
-    return "playlist?list=" in url
+    return "/playlist?" in url
 
 
 def normalize_url(url):
@@ -71,8 +83,11 @@ def list_entries(url):
         opts["playlistend"] = 100  # channel Videos tab is newest-first; 100 is plenty per run
     with yt_dlp.YoutubeDL(opts) as ydl:
         info = ydl.extract_info(normalize_url(url), download=False)
-    entries = [e for e in (info.get("entries") or []) if e and e.get("id")]
-    return [e for e in entries if e.get("live_status") not in ("is_upcoming", "is_live")]
+    raw = info.get("entries") or []
+    entries = [e for e in raw if e and e.get("id")]
+    entries = [e for e in entries if e.get("live_status") not in ("is_upcoming", "is_live")]
+    log(f"[list] {url}: {len(raw)} raw, {len(entries)} after filter")
+    return entries
 
 
 def newest_first(entries, backlog_order):
@@ -84,7 +99,7 @@ def newest_first(entries, backlog_order):
 def load_seen(folder):
     path = folder / "seen.txt"
     if not path.exists():
-        return None
+        return set()
     return set(path.read_text().split())
 
 
@@ -110,8 +125,8 @@ def save_episodes(folder, episodes):
 def get_channel_handle(url):
     """Extrae el handle (@nombre) de una URL de canal de YouTube.
 
-    Para playlists, devuelve None (no podemos obtener el avatar del canal
-    de forma fiable sin extraer la metadata de la playlist).
+    Para playlists, devuelve None: en ese caso se usará logo.jpg de la
+    carpeta del podcast como imagen del feed.
     """
     if is_playlist(url):
         return None
@@ -122,21 +137,24 @@ def get_channel_handle(url):
 
 
 def download_channel_avatar(url, folder):
-    """Descarga el avatar del canal usando unavatar.io."""
+    """Descarga el avatar del canal usando unavatar.io.
+
+    Si no se puede (p. ej. para playlists) devuelve None; en ese caso
+    write_feed usará logo.jpg de la carpeta del podcast.
+    """
     cover_path = folder / "cover.jpg"
     if cover_path.exists():
         return "cover.jpg"
 
     handle = get_channel_handle(url)
     if not handle:
-        log(f"[avatar] no se pudo extraer el handle de {url}, se usará _logo.jpg")
+        log(f"[avatar] {url} no tiene handle (¿playlist?), se usará logo.jpg")
         return None
 
     avatar_url = f"https://unavatar.io/youtube/{handle}"
     log(f"[avatar] descargando avatar desde {avatar_url}")
 
     try:
-        # Añadimos un User-Agent de navegador para evitar el 403
         req = urllib.request.Request(
             avatar_url,
             headers={
@@ -230,6 +248,11 @@ def download_episode(folder, video_id, lang=None, pubdate="upload"):
     raise last_error
 
 
+def is_permanent_failure(msg):
+    """True si el error de descarga parece permanente (no reintentable)."""
+    return any(p in msg for p in PERMANENT_ERRORS)
+
+
 def write_feed(folder, podcast, base_url, episodes):
     ET.register_namespace("itunes", ITUNES_NS)
     ET.register_namespace("atom", ATOM_NS)
@@ -248,11 +271,11 @@ def write_feed(folder, podcast, base_url, episodes):
     el(channel, "link", podcast["url"])
     el(channel, "description", podcast["title"])
 
-    # Imagen del podcast: avatar automático si existe, si no fallback a _logo.jpg
+    # Imagen: avatar si existe; si no, logo.jpg en la carpeta del podcast
     if podcast.get("cover"):
         logo_url = podcast_url + podcast["cover"]
     else:
-        logo_url = base_url + podcast["folder"] + "_logo.jpg"
+        logo_url = podcast_url + "logo.jpg"
 
     el(channel, f"{{{ATOM_NS}}}link", href=podcast_url + "channel.xml", rel="self", type="application/rss+xml")
     el(channel, f"{{{ITUNES_NS}}}image", href=logo_url)
@@ -285,41 +308,39 @@ def process_podcast(podcast, config):
     folder.mkdir(parents=True, exist_ok=True)
     backlog = podcast.get("backlog", config.get("backlog", 1))
 
-    # Avatar del canal (una vez por ejecución)
+    # Avatar del canal (se descarga una vez, se reutiliza si ya existe)
     cover = download_channel_avatar(podcast["url"], folder)
     if cover:
         podcast["cover"] = cover
-        log(f"[{podcast['folder']}] avatar descargado como {cover}")
+        log(f"[{podcast['folder']}] avatar disponible como {cover}")
     else:
         podcast.pop("cover", None)
-        log(f"[{podcast['folder']}] no se pudo obtener avatar, se usará _logo.jpg")
 
     backlog_order = podcast.get("backlog_order", config.get("backlog_order", "desc"))
     entries = newest_first(list_entries(podcast["url"]), backlog_order)
     seen = load_seen(folder)
 
-    if seen is None:
-        # First run: newest `backlog` become episodes, everything older is marked seen
-        candidates = entries[:backlog]
-        skipped = [e["id"] for e in entries[backlog:]]
-        mark_seen(folder, skipped)
-        log(f"[{podcast['folder']}] first run: {len(entries)} videos, "
-            f"downloading {len(candidates)}, skipping {len(skipped)}")
+    # Solo son candidatos los vídeos nunca vistos. El backlog limita
+    # cuántos se descargan en esta ejecución; el resto queda pendiente
+    # para la siguiente.
+    unseen = [e for e in entries if e["id"] not in seen]
+    candidates = unseen[:backlog]
+
+    if not candidates:
+        log(f"[{podcast['folder']}] no new videos "
+            f"({len(entries)} checked, {len(seen)} already seen)")
     else:
-        candidates = [e for e in entries if e["id"] not in seen]
-        if candidates:
-            log(f"[{podcast['folder']}] {len(candidates)} new video(s)")
+        log(f"[{podcast['folder']}] {len(unseen)} unseen, downloading "
+            f"{len(candidates)} (backlog={backlog}, order={backlog_order})")
 
     episodes = load_episodes(folder)
     known = {ep["id"] for ep in episodes}
     added = 0
-    for entry in reversed(candidates):  # oldest first
+    for entry in reversed(candidates):  # procesa en orden temporal para episodes.json
         if entry["id"] in known:
             mark_seen(folder, [entry["id"]])
             continue
         try:
-            # entry titles from flat listings can be auto-translated, so log
-            # the real title only after the full metadata arrives
             log(f"[{podcast['folder']}] downloading {entry['id']}")
             ep = download_episode(folder, entry["id"],
                                   podcast.get("lang", config.get("lang")),
@@ -330,7 +351,17 @@ def process_podcast(podcast, config):
             added += 1
             log(f"[{podcast['folder']}] added {ep['id']} \"{ep['title']}\"")
         except yt_dlp.utils.DownloadError as e:
-            log(f"[{podcast['folder']}] FAILED {entry['id']}: {e}")
+            msg = str(e)
+            if is_permanent_failure(msg):
+                # Members-only, privados, eliminados, geo-bloqueados...
+                # No se podrán descargar nunca: se marcan como vistos para
+                # no reintentarlos en cada ejecución.
+                log(f"[{podcast['folder']}] SKIP {entry['id']} (permanent): {msg}")
+                mark_seen(folder, [entry["id"]])
+            else:
+                # Error potencialmente transitorio: NO se marca como visto,
+                # se reintentará en la próxima ejecución.
+                log(f"[{podcast['folder']}] FAILED {entry['id']}: {msg}")
 
     if added or not (folder / "channel.xml").exists():
         write_feed(folder, podcast, config["base_url"], episodes)

@@ -67,6 +67,14 @@ backlog_order = "asc"
 pubdate       = "upload"
 
 [[podcasts]]
+url           = "https://www.youtube.com/playlist?list=PLIEj3pQyjxthpAuvexRTDNy2gPBOQpVw-"
+title         = "LA PALESTRA CANDENTE"
+folder        = "El Mundo Today - PLIEj3pQyjxthpAuvexRTDNy2gPBOQpVw"
+backlog       = 1
+backlog_order = "asc"
+pubdate       = "upload"
+
+[[podcasts]]
 url           = "https://www.youtube.com/playlist?list=PLc6y_bIejLFE71id1DAmusAJOESe4IW36"
 title         = "Mi persona favorita con Dani Rovira y Arturo González Campos"
 folder        = "RTVE Play - PLc6y_bIejLFE71id1DAmusAJOESe4IW36"
@@ -80,4 +88,12 @@ title         = "Rebobinando con David Sainz"
 folder        = "RTVE Play - PLc6y_bIejLFECpsPhoLtGJom6RQbVDt9J"
 backlog       = 1
 backlog_order = "desc"
+pubdate       = "upload"
+
+[[podcasts]]
+url           = "https://www.youtube.com/playlist?list=PLdFJekhKEVxkInPDwC2xMAogdFqZcvnse"
+title         = "Malas personas"
+folder        = "Podimo - PLdFJekhKEVxkInPDwC2xMAogdFqZcvnse"
+backlog       = 3
+backlog_order = "asc"
 pubdate       = "upload"
