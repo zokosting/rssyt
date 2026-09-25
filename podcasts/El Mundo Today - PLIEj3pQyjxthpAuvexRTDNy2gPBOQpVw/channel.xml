@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>LA PALESTRA CANDENTE</title>
+    <link>https://www.youtube.com/playlist?list=PLIEj3pQyjxthpAuvexRTDNy2gPBOQpVw-</link>
+    <description>LA PALESTRA CANDENTE</description>
+    <atom:link href="https://zokosting.github.io/rssyt/podcasts/El Mundo Today - PLIEj3pQyjxthpAuvexRTDNy2gPBOQpVw/channel.xml" rel="self" type="application/rss+xml" />
+    <itunes:image href="https://zokosting.github.io/rssyt/podcasts/El Mundo Today - PLIEj3pQyjxthpAuvexRTDNy2gPBOQpVw/logo.jpg" />
+    <image>
+      <url>https://zokosting.github.io/rssyt/podcasts/El Mundo Today - PLIEj3pQyjxthpAuvexRTDNy2gPBOQpVw/logo.jpg</url>
+      <title>LA PALESTRA CANDENTE</title>
+      <link>https://www.youtube.com/playlist?list=PLIEj3pQyjxthpAuvexRTDNy2gPBOQpVw-</link>
+    </image>
+    <item>
+      <title>La Palestra Candente #01</title>
+      <description>Presentamos un nuevo podcast de El Mundo Today, con Tomàs Fuentes, Biel Perelló, Irene Minovas y Kike García.
+
+Suscríbete a mitad de precio a El Mundo Today con el código descuento PALESTRACANDENTE: https://www.elmundotoday.com/suscribirse/
+
+Válido solo hasta mayo de 2024.</description>
+      <link>https://www.youtube.com/watch?v=zb2AzkdEYbA</link>
+      <guid isPermaLink="false">zb2AzkdEYbA</guid>
+      <pubDate>Wed, 17 Apr 2024 08:36:41 +0000</pubDate>
+      <enclosure url="https://zokosting.github.io/rssyt/podcasts/El Mundo Today - PLIEj3pQyjxthpAuvexRTDNy2gPBOQpVw/zb2AzkdEYbA.m4a" type="audio/x-m4a" length="33891079" />
+      <itunes:duration>2096</itunes:duration>
+      <itunes:image href="https://zokosting.github.io/rssyt/podcasts/El Mundo Today - PLIEj3pQyjxthpAuvexRTDNy2gPBOQpVw/zb2AzkdEYbA.jpg" />
+    </item>
+  </channel>
+</rss>

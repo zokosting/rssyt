@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Malas personas</title>
+    <link>https://www.youtube.com/playlist?list=PLdFJekhKEVxkInPDwC2xMAogdFqZcvnse</link>
+    <description>Malas personas</description>
+    <atom:link href="https://zokosting.github.io/rssyt/podcasts/Podimo - PLdFJekhKEVxkInPDwC2xMAogdFqZcvnse/channel.xml" rel="self" type="application/rss+xml" />
+    <itunes:image href="https://zokosting.github.io/rssyt/podcasts/Podimo - PLdFJekhKEVxkInPDwC2xMAogdFqZcvnse/logo.jpg" />
+    <image>
+      <url>https://zokosting.github.io/rssyt/podcasts/Podimo - PLdFJekhKEVxkInPDwC2xMAogdFqZcvnse/logo.jpg</url>
+      <title>Malas personas</title>
+      <link>https://www.youtube.com/playlist?list=PLdFJekhKEVxkInPDwC2xMAogdFqZcvnse</link>
+    </image>
+    <item>
+      <title>La PRIMERA PALABRA de @Livingpostureo en Malas personas #podimo #podcast</title>
+      <description>Escucha 30 días gratis 👉🏻 https://bit.ly/3JwAB0C</description>
+      <link>https://www.youtube.com/watch?v=kc3V3nLsqL0</link>
+      <guid isPermaLink="false">kc3V3nLsqL0</guid>
+      <pubDate>Sun, 20 Sep 2026 12:00:35 +0000</pubDate>
+      <enclosure url="https://zokosting.github.io/rssyt/podcasts/Podimo - PLdFJekhKEVxkInPDwC2xMAogdFqZcvnse/kc3V3nLsqL0.m4a" type="audio/x-m4a" length="363068" />
+      <itunes:duration>15</itunes:duration>
+      <itunes:image href="https://zokosting.github.io/rssyt/podcasts/Podimo - PLdFJekhKEVxkInPDwC2xMAogdFqZcvnse/kc3V3nLsqL0.jpg" />
+    </item>
+    <item>
+      <title>MARIO CASAS ¿EN LA CUERDA FLOJA? en Malas personas con @Livingpostureo  #podimo</title>
+      <description>Escucha 30 días gratis 👉🏻 https://bit.ly/3JwAB0C</description>
+      <link>https://www.youtube.com/watch?v=2-pSGe6H2aQ</link>
+      <guid isPermaLink="false">2-pSGe6H2aQ</guid>
+      <pubDate>Sun, 20 Sep 2026 10:30:17 +0000</pubDate>
+      <enclosure url="https://zokosting.github.io/rssyt/podcasts/Podimo - PLdFJekhKEVxkInPDwC2xMAogdFqZcvnse/2-pSGe6H2aQ.m4a" type="audio/x-m4a" length="1522020" />
+      <itunes:duration>63</itunes:duration>
+      <itunes:image href="https://zokosting.github.io/rssyt/podcasts/Podimo - PLdFJekhKEVxkInPDwC2xMAogdFqZcvnse/2-pSGe6H2aQ.jpg" />
+    </item>
+    <item>
+      <title>MARIO CASAS ¿SOLITARIO? en Malas personas con @Livingpostureo  #podimo #podcast</title>
+      <description>Escucha 30 días gratis 👉🏻 https://bit.ly/3JwAB0C</description>
+      <link>https://www.youtube.com/watch?v=mL6kt8CTVXc</link>
+      <guid isPermaLink="false">mL6kt8CTVXc</guid>
+      <pubDate>Sat, 19 Sep 2026 10:30:16 +0000</pubDate>
+      <enclosure url="https://zokosting.github.io/rssyt/podcasts/Podimo - PLdFJekhKEVxkInPDwC2xMAogdFqZcvnse/mL6kt8CTVXc.m4a" type="audio/x-m4a" length="1613868" />
+      <itunes:duration>67</itunes:duration>
+      <itunes:image href="https://zokosting.github.io/rssyt/podcasts/Podimo - PLdFJekhKEVxkInPDwC2xMAogdFqZcvnse/mL6kt8CTVXc.jpg" />
+    </item>
+  </channel>
+</rss>
