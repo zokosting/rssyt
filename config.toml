@@ -97,3 +97,11 @@ folder        = "Podimo - PLdFJekhKEVxkInPDwC2xMAogdFqZcvnse"
 backlog       = 3
 backlog_order = "asc"
 pubdate       = "upload"
+
+[[podcasts]]
+url           = "https://www.youtube.com/playlist?list=WL"
+title         = "Escolta més tard"
+folder        = "Escolta mes tard"
+backlog       = 1
+backlog_order = "desc"
+pubdate       = "upload"
