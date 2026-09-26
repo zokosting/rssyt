@@ -105,3 +105,12 @@ folder        = "Escolta mes tard"
 backlog       = 1
 backlog_order = "desc"
 pubdate       = "upload"
+
+
+[[podcasts]]
+url           = "https://www.youtube.com/@Lahiperactina/videos"
+title         = "La Hiperactina"
+folder        = "La Hiperactina"
+backlog       = 1
+backlog_order = "desc"
+pubdate       = "upload"
