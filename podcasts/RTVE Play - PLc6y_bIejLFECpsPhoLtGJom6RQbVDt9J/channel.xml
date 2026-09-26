@@ -41,5 +41,15 @@
       <itunes:duration>3678</itunes:duration>
       <itunes:image href="https://zokosting.github.io/rssyt/podcasts/RTVE Play - PLc6y_bIejLFECpsPhoLtGJom6RQbVDt9J/7V9b7bIKCv0.jpg" />
     </item>
+    <item>
+      <title>Los mejores clásicos y grandes descubrimientos de películas de ciencia ficción | Rebobinando</title>
+      <description>Hay pelís que no solo nos hicieron soñar, sino cuestionarnos todo: el futuro, el espacio, incluso nuestra propia línea temporal. Diego Villalba, Antonio Velázquez, Juan Amodeo y Adela Angulo se sientan en el saloncito de David Sainz para viajar a través de esas historias imposibles de ciencia ficción que les volaron la cabeza. Entre coñas y anécdotas, repasan clásicos y descubrimientos, reflexionando sobre cómo estas películas han marcado su forma de ver el mundo más de lo que ellos pensaban y el miedo que les provoca lo que se parece hoy la realidad a lo que un día alguien imaginó.</description>
+      <link>https://www.youtube.com/watch?v=CDjUdROI9jE</link>
+      <guid isPermaLink="false">CDjUdROI9jE</guid>
+      <pubDate>Sun, 10 May 2026 15:00:30 +0000</pubDate>
+      <enclosure url="https://zokosting.github.io/rssyt/podcasts/RTVE Play - PLc6y_bIejLFECpsPhoLtGJom6RQbVDt9J/CDjUdROI9jE.m4a" type="audio/x-m4a" length="21671962" />
+      <itunes:duration>3561</itunes:duration>
+      <itunes:image href="https://zokosting.github.io/rssyt/podcasts/RTVE Play - PLc6y_bIejLFECpsPhoLtGJom6RQbVDt9J/CDjUdROI9jE.jpg" />
+    </item>
   </channel>
 </rss>

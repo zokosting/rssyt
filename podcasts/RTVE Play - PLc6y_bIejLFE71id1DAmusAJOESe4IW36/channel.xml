@@ -45,5 +45,15 @@ Un libro que ha provocado "hasta divorcios", ¿por qué? Porque es más fácil q
       <itunes:duration>3571</itunes:duration>
       <itunes:image href="https://zokosting.github.io/rssyt/podcasts/RTVE Play - PLc6y_bIejLFE71id1DAmusAJOESe4IW36/cz31rAU3tA4.jpg" />
     </item>
+    <item>
+      <title>Juan Herrera | 1x11 | Mi persona favorita</title>
+      <description>El guionista y actor Juan Herrera se sienta en el sofá de 'Mi persona favorita' con Arturo y Dani para plantar cara la seriedad. Hoy Dani le da a elegir al invitado entre dos LPs : 'More ethiopian soul and groove' o 'Jazz Brasil'. ¿Con qué sonidos optará? ¿A qué reflexiones llevará? Una pista, todas parten de un planteamiento único: Si la gravedad no ha variado en cientos de millones de años, ¿por qué decimos que el mundo ha cambiado? Ojo, que para demostrar sus teorías, se sacará de la manga todo un as. Bueno, en realidad son dos... Y tienen mucho que ver con la comedia. Mejor ver y escuchar, porque las ideas están servidas.</description>
+      <link>https://www.youtube.com/watch?v=P4IWoCB_V9U</link>
+      <guid isPermaLink="false">P4IWoCB_V9U</guid>
+      <pubDate>Tue, 02 Jun 2026 18:00:18 +0000</pubDate>
+      <enclosure url="https://zokosting.github.io/rssyt/podcasts/RTVE Play - PLc6y_bIejLFE71id1DAmusAJOESe4IW36/P4IWoCB_V9U.m4a" type="audio/x-m4a" length="43343762" />
+      <itunes:duration>3561</itunes:duration>
+      <itunes:image href="https://zokosting.github.io/rssyt/podcasts/RTVE Play - PLc6y_bIejLFE71id1DAmusAJOESe4IW36/P4IWoCB_V9U.jpg" />
+    </item>
   </channel>
 </rss>

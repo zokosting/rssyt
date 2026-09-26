@@ -71,5 +71,15 @@
       <itunes:duration>5259</itunes:duration>
       <itunes:image href="https://zokosting.github.io/rssyt/podcasts/unamigomeconto/nvxHqu2ubAE.jpg" />
     </item>
+    <item>
+      <title>Un Amigo Me Conto / #19 La nueva masculinidad / Pepe López y Lucas Crespo</title>
+      <description>#CapCut I made this amazing video with CapCut. Open the link to try it out:  capcut.com/tools/desktop-video-editor</description>
+      <link>https://www.youtube.com/watch?v=lz0imGnmNjU</link>
+      <guid isPermaLink="false">lz0imGnmNjU</guid>
+      <pubDate>Sun, 02 Aug 2026 20:07:42 +0000</pubDate>
+      <enclosure url="https://zokosting.github.io/rssyt/podcasts/unamigomeconto/lz0imGnmNjU.m4a" type="audio/x-m4a" length="61173141" />
+      <itunes:duration>5025</itunes:duration>
+      <itunes:image href="https://zokosting.github.io/rssyt/podcasts/unamigomeconto/lz0imGnmNjU.jpg" />
+    </item>
   </channel>
 </rss>
