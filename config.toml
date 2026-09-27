@@ -108,9 +108,18 @@ pubdate       = "upload"
 
 
 [[podcasts]]
-url           = "https://www.youtube.com/@Lahiperactina/videos"
+url           = "https://www.youtube.com/@Lahiperactina"
 title         = "La Hiperactina"
 folder        = "La Hiperactina"
+backlog       = 1
+backlog_order = "desc"
+pubdate       = "upload"
+
+
+[[podcasts]]
+url           = "https://www.youtube.com/@CarneCrudaCC"
+title         = "Carne Cruda"
+folder        = "Carne Cruda"
 backlog       = 1
 backlog_order = "desc"
 pubdate       = "upload"
