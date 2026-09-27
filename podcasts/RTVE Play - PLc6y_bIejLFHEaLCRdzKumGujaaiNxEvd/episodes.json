@@ -118,5 +118,41 @@
     "mime": "audio/x-m4a",
     "filesize": 10845519,
     "thumbnail": "yMVU_e4iPgo.jpg"
+  },
+  {
+    "id": "8H3m75tHrvE",
+    "title": "María del Monte, 'justiciera' y 'ministra de fiestas y palabras mayores' | El perro andaluz",
+    "description": "María del Monte, habla sin tapujos sobre los derechos del colectivo LGTBI junto a Manu Sánchez en 'El perro andaluz'. ¿Conseguirá hacerse con su ministerio?",
+    "timestamp": 1783692030,
+    "duration": 2754,
+    "link": "https://www.youtube.com/watch?v=8H3m75tHrvE",
+    "file": "8H3m75tHrvE.m4a",
+    "mime": "audio/x-m4a",
+    "filesize": 16760020,
+    "thumbnail": "8H3m75tHrvE.jpg"
+  },
+  {
+    "id": "eM73Kc_Zgko",
+    "title": "Paula Vázquez se sincera: salud mental, redes sociales y una vida sin filtros | El perro andaluz",
+    "description": "Paula Vázquez visita El perro andaluz para repasar su trayectoria y compartir una conversación sincera sobre salud mental, redes sociales y algunos de los momentos más importantes de su vida. Entre humor, actualidad y confesiones, la presentadora protagoniza una entrevista cercana que culmina con el ya tradicional confesionario del programa.",
+    "timestamp": 1783684839,
+    "duration": 1689,
+    "link": "https://www.youtube.com/watch?v=eM73Kc_Zgko",
+    "file": "eM73Kc_Zgko.m4a",
+    "mime": "audio/x-m4a",
+    "filesize": 20554633,
+    "thumbnail": "eM73Kc_Zgko.jpg"
+  },
+  {
+    "id": "HH7JZqmBbvA",
+    "title": "De 'Color Fania' al flamenco sin etiquetas: Niña Pastori se abre con Manu Sánchez | El Perro andaluz",
+    "description": "Niña Pastori presenta Color Fania, un trabajo con el que celebra la evolución del flamenco desde la libertad creativa, y conversa con Manu Sánchez sobre su trayectoria, la mezcla de estilos y la necesidad de superar los prejuicios que aún rodean al género y a la comunidad gitana.",
+    "timestamp": 1783270815,
+    "duration": 2703,
+    "link": "https://www.youtube.com/watch?v=HH7JZqmBbvA",
+    "file": "HH7JZqmBbvA.m4a",
+    "mime": "audio/x-m4a",
+    "filesize": 32897475,
+    "thumbnail": "HH7JZqmBbvA.jpg"
   }
 ]

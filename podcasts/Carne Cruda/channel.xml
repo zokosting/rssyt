@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Carne Cruda</title>
+    <link>https://www.youtube.com/@CarneCrudaCC</link>
+    <description>Carne Cruda</description>
+    <atom:link href="https://zokosting.github.io/rssyt/podcasts/Carne Cruda/channel.xml" rel="self" type="application/rss+xml" />
+    <itunes:image href="https://zokosting.github.io/rssyt/podcasts/Carne Cruda/cover.jpg" />
+    <image>
+      <url>https://zokosting.github.io/rssyt/podcasts/Carne Cruda/cover.jpg</url>
+      <title>Carne Cruda</title>
+      <link>https://www.youtube.com/@CarneCrudaCC</link>
+    </image>
+    <item>
+      <title>T13x15 - Detectores de mentiras: desmontando la bulosfera  - CARNE CRUDA</title>
+      <description>¿Cuál es el trabajo de fact checkers y por qué es tan importante en estos tiempos de bulos y desinformación? Hoy traemos un manual práctico de la mano de Somos Conexión y recorremos el oficio de verificar de la mano de quienes lo hacen cada día. Visitamos la redacción del medio especializado en desinformación  (http://maldita.es/)Maldita.es, hablamos con los periodistas Guillermo Infantes (Newtral) y Sonia González (AFP Factual). Y contamos qué hábitos pueden ayudarnos a dejar de alimentar la desinformación con Lorenzo Marini, de Verificat. 
+
+Más información aquí:    (https://www.eldiario.es/132_ce7d5d)https://www.eldiario.es/132_ce7d5d 
+___
+
+Carne Cruda, el programa de radio que tú haces posible. 
+Hazte productor o productora aquí: http://carnecruda.es/hazte_productor/
+
+Nuestras redes sociales:
+Instagram: https://www.instagram.com/carnecruda/ 
+Twitter: https://twitter.com/carnecrudaradio
+Facebook: https://www.facebook.com/CarneCruda2.0/</description>
+      <link>https://www.youtube.com/watch?v=LVkZ0UAqnvw</link>
+      <guid isPermaLink="false">LVkZ0UAqnvw</guid>
+      <pubDate>Thu, 24 Sep 2026 10:54:26 +0000</pubDate>
+      <enclosure url="https://zokosting.github.io/rssyt/podcasts/Carne Cruda/LVkZ0UAqnvw.m4a" type="audio/x-m4a" length="44984233" />
+      <itunes:duration>3696</itunes:duration>
+      <itunes:image href="https://zokosting.github.io/rssyt/podcasts/Carne Cruda/LVkZ0UAqnvw.jpg" />
+    </item>
+  </channel>
+</rss>
