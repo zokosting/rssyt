@@ -65,5 +65,15 @@ Un libro que ha provocado "hasta divorcios", ¿por qué? Porque es más fácil q
       <itunes:duration>3382</itunes:duration>
       <itunes:image href="https://zokosting.github.io/rssyt/podcasts/RTVE Play - PLc6y_bIejLFE71id1DAmusAJOESe4IW36/8WCAdTSaIkQ.jpg" />
     </item>
+    <item>
+      <title>Ricardo Moya | 1x09 | Mi persona favorita</title>
+      <description>Mientras suena el LP de M Clan, 'Para no ver el final', Arturo y Dani se meten de lleno con Ricardo Moya a reflexionar sobre el camino recorrido desde las entrevistas a la música. Y en mitad del camino descubren la importancia de hablar solo y de fingir que hablas con alguien por teléfono para evitar otras conversaciones. Ojo, que hay confesiones personales en este punto... ¿Cómo se es infiel a la soledad? ¿Cuántas entrevistas ha hecho Ricardo? ¿Cuál ha sido la más larga? La conversación y sus silencios dan para mucho en el salón de Mi persona favorita. Incluso también para conocer las cláusulas que firmarían (y las que no) con sus parejas mientras ven una peli.</description>
+      <link>https://www.youtube.com/watch?v=KSiDZvLdTjI</link>
+      <guid isPermaLink="false">KSiDZvLdTjI</guid>
+      <pubDate>Tue, 19 May 2026 18:00:11 +0000</pubDate>
+      <enclosure url="https://zokosting.github.io/rssyt/podcasts/RTVE Play - PLc6y_bIejLFE71id1DAmusAJOESe4IW36/KSiDZvLdTjI.m4a" type="audio/x-m4a" length="19876503" />
+      <itunes:duration>3266</itunes:duration>
+      <itunes:image href="https://zokosting.github.io/rssyt/podcasts/RTVE Play - PLc6y_bIejLFE71id1DAmusAJOESe4IW36/KSiDZvLdTjI.jpg" />
+    </item>
   </channel>
 </rss>

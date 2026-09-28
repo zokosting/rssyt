@@ -154,5 +154,41 @@
     "mime": "audio/x-m4a",
     "filesize": 32897475,
     "thumbnail": "HH7JZqmBbvA.jpg"
+  },
+  {
+    "id": "PHNIKo4APgk",
+    "title": "Boris Izaguirre, desolado al hablar de su amada Venezuela | El perro andaluz",
+    "description": "Boris Izaguirre comparte su visión sobre la realidad política y social de Venezuela, la inmigración y otros asuntos de actualidad en el programa de humor y entrevistas 'El perro verde', presentado por manu Sánchez.",
+    "timestamp": 1784541639,
+    "duration": 1101,
+    "link": "https://www.youtube.com/watch?v=PHNIKo4APgk",
+    "file": "PHNIKo4APgk.m4a",
+    "mime": "audio/x-m4a",
+    "filesize": 13400387,
+    "thumbnail": "PHNIKo4APgk.jpg"
+  },
+  {
+    "id": "aCCclA4FwMc",
+    "title": "Rosa López: \"Lo que más me gusta es fluir en esta vida. Es lo más sabio\" | El perro andaluz",
+    "description": "La cantante Rosa López habla en 'El perro andaluz' de “Volver”, una canción autobiográfica que da pie a repasar su trayectoria desde sus inicios en “Operación Triunfo” y a hablar con sinceridad sobre la industria musical, la presión mediática y la salud mental.",
+    "timestamp": 1784372434,
+    "duration": 1571,
+    "link": "https://www.youtube.com/watch?v=aCCclA4FwMc",
+    "file": "aCCclA4FwMc.m4a",
+    "mime": "audio/x-m4a",
+    "filesize": 19125846,
+    "thumbnail": "aCCclA4FwMc.jpg"
+  },
+  {
+    "id": "5FL8-UbW_U4",
+    "title": "Manu Sánchez, del \"todos a una\" a una confesión con 'petición de perdón' | El perro andaluz",
+    "description": "Manu Sánchez aprovecha en este nuevo programa de 'El perro andaluz' para recordar el histórico momento por el que pasa la selección española al llegar a la final de la Copa del Mundo, que jugará contra Argentina. Es el momento de \"todos a una\" y de recordar que en \"en las diferencias está el secreto\", dice. Más allá del deporte, el cómico y y presentador improvisa su propio 'confesionario' para pedir perdón, de forma irónica, por si sus palabras pudieran haber sido \"hirientes\" para un sector de la política. \"El humor es un arma muy poderosa que además de hacer reír, molesta\", explica.",
+    "timestamp": 1784282427,
+    "duration": 987,
+    "link": "https://www.youtube.com/watch?v=5FL8-UbW_U4",
+    "file": "5FL8-UbW_U4.m4a",
+    "mime": "audio/x-m4a",
+    "filesize": 12016206,
+    "thumbnail": "5FL8-UbW_U4.jpg"
   }
 ]

@@ -12,6 +12,16 @@
       <link>https://www.youtube.com/@unamigomeconto</link>
     </image>
     <item>
+      <title>Un Amigo Me Contó / #27 Construye tus sueños / Benjamin Vicuña, Pepe López y Lucas crespo</title>
+      <description />
+      <link>https://www.youtube.com/watch?v=Oj18GT6EzdM</link>
+      <guid isPermaLink="false">Oj18GT6EzdM</guid>
+      <pubDate>Sun, 27 Sep 2026 22:31:26 +0000</pubDate>
+      <enclosure url="https://zokosting.github.io/rssyt/podcasts/unamigomeconto/Oj18GT6EzdM.m4a" type="audio/x-m4a" length="41914203" />
+      <itunes:duration>3443</itunes:duration>
+      <itunes:image href="https://zokosting.github.io/rssyt/podcasts/unamigomeconto/Oj18GT6EzdM.jpg" />
+    </item>
+    <item>
       <title>Un Amigo Me Contó / #26 La gente puede cambiar / Oky, Pepe López y Lucas Crespo</title>
       <description />
       <link>https://www.youtube.com/watch?v=p6o2L0sVj30</link>
@@ -100,6 +110,16 @@
       <enclosure url="https://zokosting.github.io/rssyt/podcasts/unamigomeconto/lcfZiExMVhk.m4a" type="audio/x-m4a" length="56728337" />
       <itunes:duration>4660</itunes:duration>
       <itunes:image href="https://zokosting.github.io/rssyt/podcasts/unamigomeconto/lcfZiExMVhk.jpg" />
+    </item>
+    <item>
+      <title>Un Amigo Me Contó / #17 Experiencia en México / Pepe López y Lucas Crespo.</title>
+      <description />
+      <link>https://www.youtube.com/watch?v=KpShTksCJ6c</link>
+      <guid isPermaLink="false">KpShTksCJ6c</guid>
+      <pubDate>Mon, 20 Jul 2026 14:39:40 +0000</pubDate>
+      <enclosure url="https://zokosting.github.io/rssyt/podcasts/unamigomeconto/KpShTksCJ6c.m4a" type="audio/x-m4a" length="53248913" />
+      <itunes:duration>4374</itunes:duration>
+      <itunes:image href="https://zokosting.github.io/rssyt/podcasts/unamigomeconto/KpShTksCJ6c.jpg" />
     </item>
   </channel>
 </rss>
