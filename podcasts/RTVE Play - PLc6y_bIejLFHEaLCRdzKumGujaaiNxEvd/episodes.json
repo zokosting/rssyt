@@ -190,5 +190,41 @@
     "mime": "audio/x-m4a",
     "filesize": 12016206,
     "thumbnail": "5FL8-UbW_U4.jpg"
+  },
+  {
+    "id": "h3CLRpTjzbQ",
+    "title": "José Mercé: \"Puede ser que haya una sorpresa con Rosalía\" | El perro andaluz",
+    "description": "José Mercé visita El perro andaluz para hablar con Manu Sánchez de música, fútbol, identidad gitana y algunos de los momentos que han marcado su vida. Además, deja caer que \"puede ser que haya una sorpresa con Rosalía\".\nEntre anécdotas y confesiones personales, el cantaor reflexiona sobre los prejuicios hacia el pueblo gitano, bromea sobre el Real Madrid y comparte algunos de los recuerdos más significativos de su trayectoria.",
+    "timestamp": 1785081606,
+    "duration": 935,
+    "link": "https://www.youtube.com/watch?v=h3CLRpTjzbQ",
+    "file": "h3CLRpTjzbQ.m4a",
+    "mime": "audio/x-m4a",
+    "filesize": 11379928,
+    "thumbnail": "h3CLRpTjzbQ.jpg"
+  },
+  {
+    "id": "eML05yJ6e9A",
+    "title": "\"Ojalá dure para siempre este hechizo\", by Manu Sánchez",
+    "description": "Tras el Mundial, Manu Sánchez reflexiona en El perro andaluz sobre todo aquello que el fútbol es capaz de despertar cuando une a un país. Un monólogo que trasciende el deporte para hablar de identidad, emoción y del deseo de que ese sentimiento compartido vaya mucho más allá de los noventa minutos.",
+    "timestamp": 1784908830,
+    "duration": 950,
+    "link": "https://www.youtube.com/watch?v=eML05yJ6e9A",
+    "file": "eML05yJ6e9A.m4a",
+    "mime": "audio/x-m4a",
+    "filesize": 11563237,
+    "thumbnail": "eML05yJ6e9A.jpg"
+  },
+  {
+    "id": "kRKSJK11miM",
+    "title": "Manu Sánchez sobre Zapatero al ritmo de \"Nos sobran los motivos\", de Sabina | El perro andaluz",
+    "description": "Manu Sánchez versiona el clásico \"Nos sobran los motivos\" de Joaquín Sabina para poner el foco, en clave de humor, en las recientes declaraciones de José Luis Rodríguez Zapatero. Música, actualidad y sátira política en El perro andaluz.",
+    "timestamp": 1784888594,
+    "duration": 329,
+    "link": "https://www.youtube.com/watch?v=kRKSJK11miM",
+    "file": "kRKSJK11miM.m4a",
+    "mime": "audio/x-m4a",
+    "filesize": 4011616,
+    "thumbnail": "kRKSJK11miM.jpg"
   }
 ]

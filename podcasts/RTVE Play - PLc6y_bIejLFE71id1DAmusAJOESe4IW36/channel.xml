@@ -75,5 +75,15 @@ Un libro que ha provocado "hasta divorcios", ¿por qué? Porque es más fácil q
       <itunes:duration>3266</itunes:duration>
       <itunes:image href="https://zokosting.github.io/rssyt/podcasts/RTVE Play - PLc6y_bIejLFE71id1DAmusAJOESe4IW36/KSiDZvLdTjI.jpg" />
     </item>
+    <item>
+      <title>Patricia Espejo | 1x08 | Mi persona favorita</title>
+      <description>La cómica y guionista Patricia Espejo es la persona favorita de Dani y Arturo en este capítulo. Tres nombres ligados al stand-up comedy; así que el humor y sus límites, pero también los escenarios y las situaciones del mundo de la comedia marcan la conversación. El vinilo elegido por Arturo es la banda sonora de Cotton Club (Francis Ford Coppola, 1984). ¿Puede un cómico o una cómica ser guapa o guapo? Dani lo tiene claro: "Odio ser guapo", ¿por qué? Patricia va más allá, da un giro de guion y tira de sarcasmo para retratar la mirada machista ante la escena. Pero surgen más preguntas en torno a otros espacios y espectáculos; por ejemplo, ¿se puede empatizar a través del parabrisas con las personas que hacen malabares en los semáforos?</description>
+      <link>https://www.youtube.com/watch?v=Z90-fRdlfiM</link>
+      <guid isPermaLink="false">Z90-fRdlfiM</guid>
+      <pubDate>Tue, 12 May 2026 18:00:26 +0000</pubDate>
+      <enclosure url="https://zokosting.github.io/rssyt/podcasts/RTVE Play - PLc6y_bIejLFE71id1DAmusAJOESe4IW36/Z90-fRdlfiM.m4a" type="audio/x-m4a" length="43340616" />
+      <itunes:duration>3561</itunes:duration>
+      <itunes:image href="https://zokosting.github.io/rssyt/podcasts/RTVE Play - PLc6y_bIejLFE71id1DAmusAJOESe4IW36/Z90-fRdlfiM.jpg" />
+    </item>
   </channel>
 </rss>

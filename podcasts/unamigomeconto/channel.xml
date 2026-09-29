@@ -121,5 +121,25 @@
       <itunes:duration>4374</itunes:duration>
       <itunes:image href="https://zokosting.github.io/rssyt/podcasts/unamigomeconto/KpShTksCJ6c.jpg" />
     </item>
+    <item>
+      <title>Un Amigo Me Contó / #16 Que quieren las mujeres? / Pepe López, Lucas Crespo y Lety Sahagún.</title>
+      <description />
+      <link>https://www.youtube.com/watch?v=uhl5fkYU0BM</link>
+      <guid isPermaLink="false">uhl5fkYU0BM</guid>
+      <pubDate>Sun, 12 Jul 2026 20:49:29 +0000</pubDate>
+      <enclosure url="https://zokosting.github.io/rssyt/podcasts/unamigomeconto/uhl5fkYU0BM.m4a" type="audio/x-m4a" length="66328023" />
+      <itunes:duration>5449</itunes:duration>
+      <itunes:image href="https://zokosting.github.io/rssyt/podcasts/unamigomeconto/uhl5fkYU0BM.jpg" />
+    </item>
+    <item>
+      <title>Un Amigo Me Contó / #15 Mentiras que nos creemos / Pepe López Y Lucas Crespo</title>
+      <description />
+      <link>https://www.youtube.com/watch?v=G5VkkB9Ar7M</link>
+      <guid isPermaLink="false">G5VkkB9Ar7M</guid>
+      <pubDate>Sun, 05 Jul 2026 18:20:20 +0000</pubDate>
+      <enclosure url="https://zokosting.github.io/rssyt/podcasts/unamigomeconto/G5VkkB9Ar7M.m4a" type="audio/x-m4a" length="49847651" />
+      <itunes:duration>4095</itunes:duration>
+      <itunes:image href="https://zokosting.github.io/rssyt/podcasts/unamigomeconto/G5VkkB9Ar7M.jpg" />
+    </item>
   </channel>
 </rss>

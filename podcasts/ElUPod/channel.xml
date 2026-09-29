@@ -476,5 +476,31 @@ Capítulos:
       <itunes:duration>2900</itunes:duration>
       <itunes:image href="https://zokosting.github.io/rssyt/podcasts/ElUPod/wFz8YFwL_0o.jpg" />
     </item>
+    <item>
+      <title>Miguel Campos | El Último Podcast #1</title>
+      <description>Antonio Castelo y una IA (que no es una IA) estrenan podcast.
+
+En este primer episodio hablamos con @mcamposgalan, además tenemos una sección de Carles Cuevas, NO FOMO, en la que nos pondrá al día de lo que está pasando en el audiovisual.
+
+
+Instagram: https://instagram.com/ultpodcast
+Tiktok: https://tiktok.com/@elultimopodcast
+
+Dirección e idea original:
+Antonio Castelo
+Diego Egido
+
+Cabecera:
+Janto Fernández aka @SoyModester
+
+Artwork by:
+[Redacted]</description>
+      <link>https://www.youtube.com/watch?v=sFtbZ7rpWv8</link>
+      <guid isPermaLink="false">sFtbZ7rpWv8</guid>
+      <pubDate>Thu, 11 Dec 2025 17:00:16 +0000</pubDate>
+      <enclosure url="https://zokosting.github.io/rssyt/podcasts/ElUPod/sFtbZ7rpWv8.m4a" type="audio/x-m4a" length="42763821" />
+      <itunes:duration>3513</itunes:duration>
+      <itunes:image href="https://zokosting.github.io/rssyt/podcasts/ElUPod/sFtbZ7rpWv8.jpg" />
+    </item>
   </channel>
 </rss>
