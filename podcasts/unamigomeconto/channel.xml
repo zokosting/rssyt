@@ -141,5 +141,25 @@
       <itunes:duration>4095</itunes:duration>
       <itunes:image href="https://zokosting.github.io/rssyt/podcasts/unamigomeconto/G5VkkB9Ar7M.jpg" />
     </item>
+    <item>
+      <title>Un Amigo Me Contó / #14 Como enfrentar la vida con Bruno Zaretti / Pepe López y Lucas Crespo</title>
+      <description />
+      <link>https://www.youtube.com/watch?v=_ADPy_r6IGs</link>
+      <guid isPermaLink="false">_ADPy_r6IGs</guid>
+      <pubDate>Mon, 29 Jun 2026 20:52:02 +0000</pubDate>
+      <enclosure url="https://zokosting.github.io/rssyt/podcasts/unamigomeconto/_ADPy_r6IGs.m4a" type="audio/x-m4a" length="29811351" />
+      <itunes:duration>4898</itunes:duration>
+      <itunes:image href="https://zokosting.github.io/rssyt/podcasts/unamigomeconto/_ADPy_r6IGs.jpg" />
+    </item>
+    <item>
+      <title>Un Amigo Me Contó / #13 Reglas de la vida / Pepe López y Lucas Crespo</title>
+      <description />
+      <link>https://www.youtube.com/watch?v=rmvITzh-pMs</link>
+      <guid isPermaLink="false">rmvITzh-pMs</guid>
+      <pubDate>Sun, 21 Jun 2026 20:46:23 +0000</pubDate>
+      <enclosure url="https://zokosting.github.io/rssyt/podcasts/unamigomeconto/rmvITzh-pMs.m4a" type="audio/x-m4a" length="60625939" />
+      <itunes:duration>4981</itunes:duration>
+      <itunes:image href="https://zokosting.github.io/rssyt/podcasts/unamigomeconto/rmvITzh-pMs.jpg" />
+    </item>
   </channel>
 </rss>
