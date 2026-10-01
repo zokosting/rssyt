@@ -161,5 +161,25 @@
       <itunes:duration>4981</itunes:duration>
       <itunes:image href="https://zokosting.github.io/rssyt/podcasts/unamigomeconto/rmvITzh-pMs.jpg" />
     </item>
+    <item>
+      <title>Un Amigo Me Contó / #12 Hábitos alimenticios / María José Escaffi, Pepe López y Lucas Crespo /</title>
+      <description />
+      <link>https://www.youtube.com/watch?v=WyEE8r9IEfE</link>
+      <guid isPermaLink="false">WyEE8r9IEfE</guid>
+      <pubDate>Sun, 14 Jun 2026 22:24:02 +0000</pubDate>
+      <enclosure url="https://zokosting.github.io/rssyt/podcasts/unamigomeconto/WyEE8r9IEfE.m4a" type="audio/x-m4a" length="31111707" />
+      <itunes:duration>4914</itunes:duration>
+      <itunes:image href="https://zokosting.github.io/rssyt/podcasts/unamigomeconto/WyEE8r9IEfE.jpg" />
+    </item>
+    <item>
+      <title>Un Amigo Me Contó / #11 Primeras veces / Pepe López y Lucas Crespo</title>
+      <description />
+      <link>https://www.youtube.com/watch?v=ntrQW_CAoVo</link>
+      <guid isPermaLink="false">ntrQW_CAoVo</guid>
+      <pubDate>Sun, 07 Jun 2026 20:03:20 +0000</pubDate>
+      <enclosure url="https://zokosting.github.io/rssyt/podcasts/unamigomeconto/ntrQW_CAoVo.m4a" type="audio/x-m4a" length="30916716" />
+      <itunes:duration>4840</itunes:duration>
+      <itunes:image href="https://zokosting.github.io/rssyt/podcasts/unamigomeconto/ntrQW_CAoVo.jpg" />
+    </item>
   </channel>
 </rss>
