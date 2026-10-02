@@ -181,5 +181,25 @@
       <itunes:duration>4840</itunes:duration>
       <itunes:image href="https://zokosting.github.io/rssyt/podcasts/unamigomeconto/ntrQW_CAoVo.jpg" />
     </item>
+    <item>
+      <title>Un Amigo Me Contó / #10 Cambios generacionales / Pepe López y Lucas Crespo</title>
+      <description>#CapCut I made this amazing video with CapCut. Open the link to try it out:  capcut.com/tools/desktop-video-editor</description>
+      <link>https://www.youtube.com/watch?v=gKuoS7Fp5fw</link>
+      <guid isPermaLink="false">gKuoS7Fp5fw</guid>
+      <pubDate>Mon, 01 Jun 2026 14:24:41 +0000</pubDate>
+      <enclosure url="https://zokosting.github.io/rssyt/podcasts/unamigomeconto/gKuoS7Fp5fw.m4a" type="audio/x-m4a" length="31787066" />
+      <itunes:duration>5032</itunes:duration>
+      <itunes:image href="https://zokosting.github.io/rssyt/podcasts/unamigomeconto/gKuoS7Fp5fw.jpg" />
+    </item>
+    <item>
+      <title>Un Amigo Me Conto / #9 Cosas que me hubiera gustado saber antes / Pepe López y Lucas Crespo</title>
+      <description />
+      <link>https://www.youtube.com/watch?v=EhCLrxDJ_Rs</link>
+      <guid isPermaLink="false">EhCLrxDJ_Rs</guid>
+      <pubDate>Sun, 24 May 2026 22:35:27 +0000</pubDate>
+      <enclosure url="https://zokosting.github.io/rssyt/podcasts/unamigomeconto/EhCLrxDJ_Rs.m4a" type="audio/x-m4a" length="34370634" />
+      <itunes:duration>5423</itunes:duration>
+      <itunes:image href="https://zokosting.github.io/rssyt/podcasts/unamigomeconto/EhCLrxDJ_Rs.jpg" />
+    </item>
   </channel>
 </rss>
