@@ -226,5 +226,29 @@
     "mime": "audio/x-m4a",
     "filesize": 31787066,
     "thumbnail": "gKuoS7Fp5fw.jpg"
+  },
+  {
+    "id": "yEFNyTE4nP4",
+    "title": "Un Amigo Me Contó / #7 Validación Externa junto a José Miguel Viñuela / Pepe López y Lucas Crespo /",
+    "description": "",
+    "timestamp": 1777845189,
+    "duration": 4873,
+    "link": "https://www.youtube.com/watch?v=yEFNyTE4nP4",
+    "file": "yEFNyTE4nP4.m4a",
+    "mime": "audio/x-m4a",
+    "filesize": 30943871,
+    "thumbnail": "yEFNyTE4nP4.jpg"
+  },
+  {
+    "id": "WvhiS_K83iw",
+    "title": "Un Amigo Me Contó / #8 Como cagarte la vida / Pepe López y Lucas Crespo",
+    "description": "",
+    "timestamp": 1778445056,
+    "duration": 4589,
+    "link": "https://www.youtube.com/watch?v=WvhiS_K83iw",
+    "file": "WvhiS_K83iw.m4a",
+    "mime": "audio/x-m4a",
+    "filesize": 29176311,
+    "thumbnail": "WvhiS_K83iw.jpg"
   }
 ]

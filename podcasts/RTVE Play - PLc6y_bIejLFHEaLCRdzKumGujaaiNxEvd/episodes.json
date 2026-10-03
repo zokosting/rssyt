@@ -298,5 +298,29 @@
     "mime": "audio/x-m4a",
     "filesize": 5732456,
     "thumbnail": "whvsqRuSiXU.jpg"
+  },
+  {
+    "id": "ln6aqggMx9M",
+    "title": "Jesús Vázquez: una vida en televisión y una lucha que sigue vigente | El perro andaluz",
+    "description": "Jesús Vázquez visita El Perro Andaluz tras el estreno de El Túnel, su nueva etapa en RTVE. Junto a Manu Sánchez habla de televisión, salud mental y de la defensa de los derechos LGTBIQ+ más de veinte años después de la aprobación del matrimonio igualitario.\n\nEl presentador recuerda a su amigo Pedro Zerolo y aquellos años de lucha por la igualdad, se enfrenta a una de las preguntas de Jesús Quintero y recorre una trayectoria de más de cuarenta formatos delante de las cámaras.",
+    "timestamp": 1789401603,
+    "duration": 1179,
+    "link": "https://www.youtube.com/watch?v=ln6aqggMx9M",
+    "file": "ln6aqggMx9M.m4a",
+    "mime": "audio/x-m4a",
+    "filesize": 7434069,
+    "thumbnail": "ln6aqggMx9M.jpg"
+  },
+  {
+    "id": "MJXmOP-slKk",
+    "title": "Manu Sánchez: \"El amor es más poderoso, pero el odio hace más ruido\" | El perro andaluz",
+    "description": "Manu Sánchez pone el foco en el odio, la polarización y el ruido que nos empuja a los extremos. Con humor e ironía, se pregunta quién gana cuando la mentira y el enfrentamiento consiguen que terminemos odiándonos.\n\nEn «Odio al odio», Manu Sánchez desmonta las contradicciones del odio para reivindicar el amor, la inteligencia y la libertad. Porque «es más poderoso el amor, pero el odio hace más ruido».",
+    "timestamp": 1789374609,
+    "duration": 1182,
+    "link": "https://www.youtube.com/watch?v=MJXmOP-slKk",
+    "file": "MJXmOP-slKk.m4a",
+    "mime": "audio/x-m4a",
+    "filesize": 7416057,
+    "thumbnail": "MJXmOP-slKk.jpg"
   }
 ]

@@ -118,5 +118,15 @@ Y el vinilo elegido para la ocasión, por Dani en este caso, es The Pet Sounds S
       <itunes:duration>3299</itunes:duration>
       <itunes:image href="https://zokosting.github.io/rssyt/podcasts/RTVE Play - PLc6y_bIejLFE71id1DAmusAJOESe4IW36/xdBl1e9XUo0.jpg" />
     </item>
+    <item>
+      <title>Cristina Hernández | 1x04 | Mi persona favorita</title>
+      <description>La persona favorita de este capítulo es la bióloga Cristina Hernández. Con ella, Dani y Arturo charlan sobre aves, setas y otros... animales. El LP elegido para la ocasión es Stevie Wonder's Journey Through "The Secret Life of Plants". ¿Qué le inquieta a Arturo del campo? ¿Qué representan los estorninos pintos para Dani? Los alcornoques van a desaparecer, ¿por qué? ¿Cómo hacen los elefantes sus duelos particulares? ¿Son conscientes los ganaderos que el lobo es su aliado y no un enemigo? Cristina contesta una por una -desde su conocimiento y experiencia- a todas las preguntas que van surgiendo a lo largo de la conversación. Que no son pocas.</description>
+      <link>https://www.youtube.com/watch?v=SH9hyuREIts</link>
+      <guid isPermaLink="false">SH9hyuREIts</guid>
+      <pubDate>Tue, 14 Apr 2026 18:00:33 +0000</pubDate>
+      <enclosure url="https://zokosting.github.io/rssyt/podcasts/RTVE Play - PLc6y_bIejLFE71id1DAmusAJOESe4IW36/SH9hyuREIts.m4a" type="audio/x-m4a" length="22505582" />
+      <itunes:duration>3511</itunes:duration>
+      <itunes:image href="https://zokosting.github.io/rssyt/podcasts/RTVE Play - PLc6y_bIejLFE71id1DAmusAJOESe4IW36/SH9hyuREIts.jpg" />
+    </item>
   </channel>
 </rss>
