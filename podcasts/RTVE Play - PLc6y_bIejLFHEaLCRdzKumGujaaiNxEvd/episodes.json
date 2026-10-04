@@ -322,5 +322,29 @@
     "mime": "audio/x-m4a",
     "filesize": 7416057,
     "thumbnail": "MJXmOP-slKk.jpg"
+  },
+  {
+    "id": "mYj8zrwtACc",
+    "title": "¿Te imaginas que la IA...? | El perro andaluz",
+    "description": "Dicen que la Inteligencia Artificial puede acabar con nosotros, pero Manu Sánchez lo tiene claro: \"Me dicen que tengo que temer a la inteligencia artificial pero me da más miedo la maldad real\".\n\n¿Y si las máquinas terminan pensando por sí mismas, rebelándose contra quienes las explotan y teniendo más humanidad que nosotros? Porque quizá el verdadero problema sea otro: \"No están en contra de la Inteligencia artificial, están en contra de la inteligencia\".",
+    "timestamp": 1789750457,
+    "duration": 1088,
+    "link": "https://www.youtube.com/watch?v=mYj8zrwtACc",
+    "file": "mYj8zrwtACc.m4a",
+    "mime": "audio/x-m4a",
+    "filesize": 6794507,
+    "thumbnail": "mYj8zrwtACc.jpg"
+  },
+  {
+    "id": "6cga7GrxZJ8",
+    "title": "Rosa María Calaf: \"Corresponsal de la vida\"",
+    "description": "Rosa María Calaf visita El perro andaluz para repasar junto a Manu Sánchez más de cinco décadas de periodismo y reflexionar sobre el 11S, la desinformación y los retos de la profesión.\n\nLa histórica corresponsal habla también de la importante función de los medios de comunicación locales.",
+    "timestamp": 1789466419,
+    "duration": 1103,
+    "link": "https://www.youtube.com/watch?v=6cga7GrxZJ8",
+    "file": "6cga7GrxZJ8.m4a",
+    "mime": "audio/x-m4a",
+    "filesize": 6990693,
+    "thumbnail": "6cga7GrxZJ8.jpg"
   }
 ]

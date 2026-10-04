@@ -221,5 +221,25 @@
       <itunes:duration>4873</itunes:duration>
       <itunes:image href="https://zokosting.github.io/rssyt/podcasts/unamigomeconto/yEFNyTE4nP4.jpg" />
     </item>
+    <item>
+      <title>Un Amigo Me contó / #6 Verdades incómodas / Pepe López y Lucas Crespo</title>
+      <description />
+      <link>https://www.youtube.com/watch?v=-rPSU9uR_Cc</link>
+      <guid isPermaLink="false">-rPSU9uR_Cc</guid>
+      <pubDate>Sun, 26 Apr 2026 21:27:13 +0000</pubDate>
+      <enclosure url="https://zokosting.github.io/rssyt/podcasts/unamigomeconto/-rPSU9uR_Cc.m4a" type="audio/x-m4a" length="30646046" />
+      <itunes:duration>4812</itunes:duration>
+      <itunes:image href="https://zokosting.github.io/rssyt/podcasts/unamigomeconto/-rPSU9uR_Cc.jpg" />
+    </item>
+    <item>
+      <title>Un Amigo Me Contó / #5 Dolor, Fracaso y sufrimiento / Pepe López y Lucas Crespo</title>
+      <description />
+      <link>https://www.youtube.com/watch?v=lDe6KZt9J2c</link>
+      <guid isPermaLink="false">lDe6KZt9J2c</guid>
+      <pubDate>Sun, 19 Apr 2026 21:41:06 +0000</pubDate>
+      <enclosure url="https://zokosting.github.io/rssyt/podcasts/unamigomeconto/lDe6KZt9J2c.m4a" type="audio/x-m4a" length="33843491" />
+      <itunes:duration>5312</itunes:duration>
+      <itunes:image href="https://zokosting.github.io/rssyt/podcasts/unamigomeconto/lDe6KZt9J2c.jpg" />
+    </item>
   </channel>
 </rss>

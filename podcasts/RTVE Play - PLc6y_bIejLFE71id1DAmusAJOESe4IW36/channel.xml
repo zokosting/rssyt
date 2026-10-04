@@ -128,5 +128,17 @@ Y el vinilo elegido para la ocasión, por Dani en este caso, es The Pet Sounds S
       <itunes:duration>3511</itunes:duration>
       <itunes:image href="https://zokosting.github.io/rssyt/podcasts/RTVE Play - PLc6y_bIejLFE71id1DAmusAJOESe4IW36/SH9hyuREIts.jpg" />
     </item>
+    <item>
+      <title>Sére Skuld y Lorenzo Fernández Bueno | 1x03 | Mi persona favorita</title>
+      <description>En este capítulo Arturo y Dani reciben a la escritora y podcaster Sére Skuld y al periodista y director de El Colegio Invisible (Onda Cero), Lorenzo Fernández Bueno. Con el misterio y Alan Parsons de fondo, la conversación gira en torno a fenómenos extraños sin explicación, experiencias cercanas a la muerte o ayahuasca. Siempre con sentido del humor e ironía. Mucho contexto e historias que van fluyendo al ritmo que marca el LP elegido para la ocasión, "Eye in the Sky". 
+
+Tampoco faltan las recomendaciones y referencias al cine -y no solo de terror-, la historia y la literatura; ni los enigmas ¿Qué pasó con la primera versión del guion de El planeta de los Simios? ¿Por qué Lorenzo Fernández Bueno no soporta a Nicolas Cage? ¿Qué historias hay detrás de los anillos de Sére Skuld?</description>
+      <link>https://www.youtube.com/watch?v=gaWb7ENboqo</link>
+      <guid isPermaLink="false">gaWb7ENboqo</guid>
+      <pubDate>Tue, 24 Mar 2026 19:00:40 +0000</pubDate>
+      <enclosure url="https://zokosting.github.io/rssyt/podcasts/RTVE Play - PLc6y_bIejLFE71id1DAmusAJOESe4IW36/gaWb7ENboqo.m4a" type="audio/x-m4a" length="22339296" />
+      <itunes:duration>3493</itunes:duration>
+      <itunes:image href="https://zokosting.github.io/rssyt/podcasts/RTVE Play - PLc6y_bIejLFE71id1DAmusAJOESe4IW36/gaWb7ENboqo.jpg" />
+    </item>
   </channel>
 </rss>

@@ -250,5 +250,29 @@
     "mime": "audio/x-m4a",
     "filesize": 29176311,
     "thumbnail": "WvhiS_K83iw.jpg"
+  },
+  {
+    "id": "lDe6KZt9J2c",
+    "title": "Un Amigo Me Contó / #5 Dolor, Fracaso y sufrimiento / Pepe López y Lucas Crespo",
+    "description": "",
+    "timestamp": 1776634866,
+    "duration": 5312,
+    "link": "https://www.youtube.com/watch?v=lDe6KZt9J2c",
+    "file": "lDe6KZt9J2c.m4a",
+    "mime": "audio/x-m4a",
+    "filesize": 33843491,
+    "thumbnail": "lDe6KZt9J2c.jpg"
+  },
+  {
+    "id": "-rPSU9uR_Cc",
+    "title": "Un Amigo Me contó / #6 Verdades incómodas / Pepe López y Lucas Crespo",
+    "description": "",
+    "timestamp": 1777238833,
+    "duration": 4812,
+    "link": "https://www.youtube.com/watch?v=-rPSU9uR_Cc",
+    "file": "-rPSU9uR_Cc.m4a",
+    "mime": "audio/x-m4a",
+    "filesize": 30646046,
+    "thumbnail": "-rPSU9uR_Cc.jpg"
   }
 ]
