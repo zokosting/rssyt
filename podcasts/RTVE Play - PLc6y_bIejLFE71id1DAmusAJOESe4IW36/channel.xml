@@ -140,5 +140,15 @@ Tampoco faltan las recomendaciones y referencias al cine -y no solo de terror-, 
       <itunes:duration>3493</itunes:duration>
       <itunes:image href="https://zokosting.github.io/rssyt/podcasts/RTVE Play - PLc6y_bIejLFE71id1DAmusAJOESe4IW36/gaWb7ENboqo.jpg" />
     </item>
+    <item>
+      <title>Laura Márquez | 1x02 | Mi persona favorita</title>
+      <description>Dani y Arturo reciben en este capítulo a la guionista y actriz Laura Márquez para charlar sobre episiotomías, amistad y... otras personas favoritas; pero también de "imbéciles" o de amistad, entre otros temas. En el tocadiscos Arturo nos sorprende con los grandes éxitos de El Dioni, es decir, el LP con influencia Brasileña, "Con un par sí, pero...". Melodías que acompañan la conversación en la que descubriremos el lado dramático de Laura. ¿A qué o a quién le saca tarjeta roja? ¿Qué le llama la atención del salón - plató de Mi persona favorita? ¿Qué cuenta el pelo de la cabeza de nosotros? A estas preguntas y otros planteamientos contestará ella y los propios presentadores.</description>
+      <link>https://www.youtube.com/watch?v=MMjrCCvW5LE</link>
+      <guid isPermaLink="false">MMjrCCvW5LE</guid>
+      <pubDate>Tue, 17 Mar 2026 19:00:21 +0000</pubDate>
+      <enclosure url="https://zokosting.github.io/rssyt/podcasts/RTVE Play - PLc6y_bIejLFE71id1DAmusAJOESe4IW36/MMjrCCvW5LE.m4a" type="audio/x-m4a" length="19470193" />
+      <itunes:duration>3011</itunes:duration>
+      <itunes:image href="https://zokosting.github.io/rssyt/podcasts/RTVE Play - PLc6y_bIejLFE71id1DAmusAJOESe4IW36/MMjrCCvW5LE.jpg" />
+    </item>
   </channel>
 </rss>
