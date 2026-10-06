@@ -150,5 +150,15 @@ Tampoco faltan las recomendaciones y referencias al cine -y no solo de terror-, 
       <itunes:duration>3011</itunes:duration>
       <itunes:image href="https://zokosting.github.io/rssyt/podcasts/RTVE Play - PLc6y_bIejLFE71id1DAmusAJOESe4IW36/MMjrCCvW5LE.jpg" />
     </item>
+    <item>
+      <title>Pancho Varona, ¿eres puntual? | 1x01 | Mi persona favorita</title>
+      <description>En este capítulo Dani Rovira y Arturo González - Campos, charlan con el músico y compositor Pancho Varona, que llega al programa con mucho que contar y temas que... pinchar. Un tocadiscos -siempre presente- acompaña y pone melodía a la conversación. ¿Qué vinilos sonarán a lo largo de la misma? ¿Qué artistas no pueden faltar entre los imprescindibles de Pancho Varona? ¿Era puntual Paul McCartney?</description>
+      <link>https://www.youtube.com/watch?v=gv1LhpSiHM8</link>
+      <guid isPermaLink="false">gv1LhpSiHM8</guid>
+      <pubDate>Tue, 03 Mar 2026 19:00:42 +0000</pubDate>
+      <enclosure url="https://zokosting.github.io/rssyt/podcasts/RTVE Play - PLc6y_bIejLFE71id1DAmusAJOESe4IW36/gv1LhpSiHM8.m4a" type="audio/x-m4a" length="18867556" />
+      <itunes:duration>2946</itunes:duration>
+      <itunes:image href="https://zokosting.github.io/rssyt/podcasts/RTVE Play - PLc6y_bIejLFE71id1DAmusAJOESe4IW36/gv1LhpSiHM8.jpg" />
+    </item>
   </channel>
 </rss>

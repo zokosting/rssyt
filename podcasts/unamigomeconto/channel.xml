@@ -261,5 +261,25 @@
       <itunes:duration>4880</itunes:duration>
       <itunes:image href="https://zokosting.github.io/rssyt/podcasts/unamigomeconto/xUq78uj2jLY.jpg" />
     </item>
+    <item>
+      <title>Un Amigo Me Contó / #3 Que quieren las mujeres? / Pepe López y Lucas Crespo</title>
+      <description />
+      <link>https://www.youtube.com/watch?v=nly59H13zTk</link>
+      <guid isPermaLink="false">nly59H13zTk</guid>
+      <pubDate>Sun, 05 Apr 2026 22:24:59 +0000</pubDate>
+      <enclosure url="https://zokosting.github.io/rssyt/podcasts/unamigomeconto/nly59H13zTk.m4a" type="audio/x-m4a" length="33105074" />
+      <itunes:duration>5180</itunes:duration>
+      <itunes:image href="https://zokosting.github.io/rssyt/podcasts/unamigomeconto/nly59H13zTk.jpg" />
+    </item>
+    <item>
+      <title>Un Amigo Me Contó / #2 Que es ser un hombre? / Pepe López y Lucas Crespo</title>
+      <description />
+      <link>https://www.youtube.com/watch?v=RrLCLthix9I</link>
+      <guid isPermaLink="false">RrLCLthix9I</guid>
+      <pubDate>Sun, 29 Mar 2026 21:10:49 +0000</pubDate>
+      <enclosure url="https://zokosting.github.io/rssyt/podcasts/unamigomeconto/RrLCLthix9I.m4a" type="audio/x-m4a" length="32644267" />
+      <itunes:duration>5126</itunes:duration>
+      <itunes:image href="https://zokosting.github.io/rssyt/podcasts/unamigomeconto/RrLCLthix9I.jpg" />
+    </item>
   </channel>
 </rss>

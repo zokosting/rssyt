@@ -298,5 +298,29 @@
     "mime": "audio/x-m4a",
     "filesize": 31862462,
     "thumbnail": "HJt_aqYekoE.jpg"
+  },
+  {
+    "id": "RrLCLthix9I",
+    "title": "Un Amigo Me Contó / #2 Que es ser un hombre? / Pepe López y Lucas Crespo",
+    "description": "",
+    "timestamp": 1774818649,
+    "duration": 5126,
+    "link": "https://www.youtube.com/watch?v=RrLCLthix9I",
+    "file": "RrLCLthix9I.m4a",
+    "mime": "audio/x-m4a",
+    "filesize": 32644267,
+    "thumbnail": "RrLCLthix9I.jpg"
+  },
+  {
+    "id": "nly59H13zTk",
+    "title": "Un Amigo Me Contó / #3 Que quieren las mujeres? / Pepe López y Lucas Crespo",
+    "description": "",
+    "timestamp": 1775427899,
+    "duration": 5180,
+    "link": "https://www.youtube.com/watch?v=nly59H13zTk",
+    "file": "nly59H13zTk.m4a",
+    "mime": "audio/x-m4a",
+    "filesize": 33105074,
+    "thumbnail": "nly59H13zTk.jpg"
   }
 ]
