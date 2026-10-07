@@ -281,5 +281,15 @@
       <itunes:duration>5126</itunes:duration>
       <itunes:image href="https://zokosting.github.io/rssyt/podcasts/unamigomeconto/RrLCLthix9I.jpg" />
     </item>
+    <item>
+      <title>Un Amigo Me contó / #1 Quien chucha soy? / Pepe López y Lucas Crespo</title>
+      <description />
+      <link>https://www.youtube.com/watch?v=oBZ5IegY10I</link>
+      <guid isPermaLink="false">oBZ5IegY10I</guid>
+      <pubDate>Sun, 22 Mar 2026 20:34:30 +0000</pubDate>
+      <enclosure url="https://zokosting.github.io/rssyt/podcasts/unamigomeconto/oBZ5IegY10I.m4a" type="audio/x-m4a" length="21416457" />
+      <itunes:duration>3367</itunes:duration>
+      <itunes:image href="https://zokosting.github.io/rssyt/podcasts/unamigomeconto/oBZ5IegY10I.jpg" />
+    </item>
   </channel>
 </rss>
