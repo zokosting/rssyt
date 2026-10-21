@@ -99,9 +99,9 @@ backlog_order = "asc"
 pubdate       = "upload"
 
 [[podcasts]]
-url           = "https://www.youtube.com/playlist?list=WL"
-title         = "Escolta més tard"
-folder        = "Escolta mes tard"
+url           = "https://www.youtube.com/playlist?list=PLQdw2OPxiMCyUrcvJXCbNEBGHh6XCVCqu"
+title         = "Sofá y Samantha"
+folder        = "Sofa y Samantha"
 backlog       = 1
 backlog_order = "asc"
 pubdate       = "upload"
