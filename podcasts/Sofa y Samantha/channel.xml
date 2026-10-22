@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Sofá y Samantha</title>
+    <link>https://www.youtube.com/playlist?list=PLQdw2OPxiMCyUrcvJXCbNEBGHh6XCVCqu</link>
+    <description>Sofá y Samantha</description>
+    <atom:link href="https://zokosting.github.io/rssyt/podcasts/Sofa y Samantha/channel.xml" rel="self" type="application/rss+xml" />
+    <itunes:image href="https://zokosting.github.io/rssyt/podcasts/Sofa y Samantha/logo.jpg" />
+    <image>
+      <url>https://zokosting.github.io/rssyt/podcasts/Sofa y Samantha/logo.jpg</url>
+      <title>Sofá y Samantha</title>
+      <link>https://www.youtube.com/playlist?list=PLQdw2OPxiMCyUrcvJXCbNEBGHh6XCVCqu</link>
+    </image>
+    <item>
+      <title>SARAH SANTAOLALLA - Sofá y Samantha #1, con Samantha Hudson - De Pablo Motos al acoso fascista</title>
+      <description>🔥 Arranca Sofá y Samantha y lo hace a lo grande.
+
+Samantha Hudson se sienta a hablar sin filtros con Sarah Santaolalla en este primer capítulo de Sofá y Samantha, el podcast producido por la Fundación Contexto y Acción, CTXT y ACO: machismo en prime time, acoso ultra, transfobia, cloacas, tetas, política y cero ganas de callarse.
+
+Un primer programa incómodo, valiente y necesario.
+Si molesta, es que estamos diciendo la verdad.
+
+Puedes seguirnos en:
+
+Bluesky:  https://bsky.app/profile/ctxt.es
+                 https://bsky.app/profile/accioncontraelodio.bsky.social
+Twitter: https://twitter.com/ctxt_es
+Instagram: https://www.instagram.com/ctxt_es/
+                    https://www.instagram.com/accioncontraelodio/
+Facebook: https://www.facebook.com/redcontexto</description>
+      <link>https://www.youtube.com/watch?v=8sCsghiYVqQ</link>
+      <guid isPermaLink="false">8sCsghiYVqQ</guid>
+      <pubDate>Wed, 18 Feb 2026 13:23:57 +0000</pubDate>
+      <enclosure url="https://zokosting.github.io/rssyt/podcasts/Sofa y Samantha/8sCsghiYVqQ.m4a" type="audio/x-m4a" length="34521884" />
+      <itunes:duration>5444</itunes:duration>
+      <itunes:image href="https://zokosting.github.io/rssyt/podcasts/Sofa y Samantha/8sCsghiYVqQ.jpg" />
+    </item>
+  </channel>
+</rss>
