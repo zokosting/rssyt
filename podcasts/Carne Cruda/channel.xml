@@ -576,5 +576,24 @@ Facebook: https://www.facebook.com/CarneCruda2.0/</description>
       <itunes:duration>3696</itunes:duration>
       <itunes:image href="https://zokosting.github.io/rssyt/podcasts/Carne Cruda/LVkZ0UAqnvw.jpg" />
     </item>
+    <item>
+      <title>T13x14 - Desahucian a Maricarmen (Cobertura en directo) - CARNE CRUDA</title>
+      <description>Un programa especial de Carne Cruda para contar el desahucio en directo de Maricarmen, la mujer de 87 años que llevaba más de 70 viviendo en una casa en su casa de la calle Saínz de Baranda en Madrid 
+___
+
+Carne Cruda, el programa de radio que tú haces posible. 
+Hazte productor o productora aquí: http://carnecruda.es/hazte_productor/
+
+Nuestras redes sociales:
+Instagram: https://www.instagram.com/carnecruda/ 
+Twitter: https://twitter.com/carnecrudaradio
+Facebook: https://www.facebook.com/CarneCruda2.0/</description>
+      <link>https://www.youtube.com/watch?v=5TGBRchiJ_A</link>
+      <guid isPermaLink="false">5TGBRchiJ_A</guid>
+      <pubDate>Wed, 23 Sep 2026 15:12:25 +0000</pubDate>
+      <enclosure url="https://zokosting.github.io/rssyt/podcasts/Carne Cruda/5TGBRchiJ_A.m4a" type="audio/x-m4a" length="17556883" />
+      <itunes:duration>2795</itunes:duration>
+      <itunes:image href="https://zokosting.github.io/rssyt/podcasts/Carne Cruda/5TGBRchiJ_A.jpg" />
+    </item>
   </channel>
 </rss>
