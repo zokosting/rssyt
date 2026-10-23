@@ -129,3 +129,19 @@ folder        = "Escolta mes tard"
 backlog       = 1
 backlog_order = "asc"
 pubdate       = "upload"
+
+[[podcasts]]
+url           = "https://www.youtube.com/playlist?list=PLHF437Sz2MHrrFqW6k0eLi0Aiw3sChc65"
+title         = "Teories de la relativitat, amb La gata de Schroedinger"
+folder        = "Teories de la relativitat"
+backlog       = 1
+backlog_order = "asc"
+pubdate       = "upload"
+
+[[podcasts]]
+url           = "https://www.youtube.com/hashtag/sociser%C3%A93cat"
+title         = "Soc i seré"
+folder        = "Soc i sere"
+backlog       = 1
+backlog_order = "asc"
+pubdate       = "upload"
