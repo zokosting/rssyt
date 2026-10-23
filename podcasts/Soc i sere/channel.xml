@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Soc i seré</title>
+    <link>https://www.youtube.com/hashtag/sociser%C3%A93cat</link>
+    <description>Soc i seré</description>
+    <atom:link href="https://zokosting.github.io/rssyt/podcasts/Soc i sere/channel.xml" rel="self" type="application/rss+xml" />
+    <itunes:image href="https://zokosting.github.io/rssyt/podcasts/Soc i sere/logo.jpg" />
+    <image>
+      <url>https://zokosting.github.io/rssyt/podcasts/Soc i sere/logo.jpg</url>
+      <title>Soc i seré</title>
+      <link>https://www.youtube.com/hashtag/sociser%C3%A93cat</link>
+    </image>
+    <item>
+      <title>Quiz de tradicions catalanes "Soc i seré". Ets un expert en cultura popular?</title>
+      <description>Coneixes bé les tradicions de Catalunya? Gegants, castells, festes populars, gastronomia i més! Fes aquest test inspirat en el concurs "Soc i seré" de 3Cat i descobreix si ets la persona que més en sap de cultura catalana. Tres opcions, una resposta correcta… Posa’t a prova!
+
+Subscriu-te al canal oficial de 3Cat a YouTube: https://bit.ly/49hpsZH
+
+Instagram: https://www.instagram.com/som3cat/
+TikTok: https://www.tiktok.com/@som3cat
+Twitter:  https://twitter.com/som3cat
+Facebook: https://www.facebook.com/som3Cat
+Web: https://www.ccma.cat/3cat/
+Catalunya Ràdio a YouTube: https://bit.ly/2RLKl6r
+
+#SocISeré3Cat #Som3Cat #Quiz #Tradicions #Catalunya</description>
+      <link>https://www.youtube.com/watch?v=NQUS2Fr8qj0</link>
+      <guid isPermaLink="false">NQUS2Fr8qj0</guid>
+      <pubDate>Mon, 30 Jun 2025 11:00:45 +0000</pubDate>
+      <enclosure url="https://zokosting.github.io/rssyt/podcasts/Soc i sere/NQUS2Fr8qj0.m4a" type="audio/x-m4a" length="1317524" />
+      <itunes:duration>214</itunes:duration>
+      <itunes:image href="https://zokosting.github.io/rssyt/podcasts/Soc i sere/NQUS2Fr8qj0.jpg" />
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Teories de la relativitat, amb La gata de Schroedinger</title>
+    <link>https://www.youtube.com/playlist?list=PLHF437Sz2MHrrFqW6k0eLi0Aiw3sChc65</link>
+    <description>Teories de la relativitat, amb La gata de Schroedinger</description>
+    <atom:link href="https://zokosting.github.io/rssyt/podcasts/Teories de la relativitat/channel.xml" rel="self" type="application/rss+xml" />
+    <itunes:image href="https://zokosting.github.io/rssyt/podcasts/Teories de la relativitat/logo.jpg" />
+    <image>
+      <url>https://zokosting.github.io/rssyt/podcasts/Teories de la relativitat/logo.jpg</url>
+      <title>Teories de la relativitat, amb La gata de Schroedinger</title>
+      <link>https://www.youtube.com/playlist?list=PLHF437Sz2MHrrFqW6k0eLi0Aiw3sChc65</link>
+    </image>
+    <item>
+      <title>Sexualitat a les xarxes, amb @LaGataDeSchrödinger | Teories de la relativitat (T1xC1)</title>
+      <description>Explorem el món digital de la sexualitat: la hipersexualització que provoquen les xarxes, el ciberassetjament i les plataformes eròtiques com OnlyFans. Amb Rocío Vidal reflexionem sobre la indústria musical i el cos femení i parlem amb una creadora de contingut que ens explica en primera persona els riscos i les trampes del negoci.
+
+Subscriu-te al canal oficial de 3Cat a YouTube: https://www.youtube.com/@som3cat
+Els continguts, a la plataforma 3Cat: http://3cat.cat/3cat/
+
+Segueix-nos a les xarxes socials:
+Instagram: https://www.instagram.com/som3cat/
+TikTok: https://www.tiktok.com/@som3cat
+X:  https://x.com/som3cat
+Facebook: https://www.facebook.com/som3Cat
+
+#TeoriesRelativitat3Cat #LaGataDeSchrödinger #Onlyfans #Som3Cat</description>
+      <link>https://www.youtube.com/watch?v=Sk84HVD6fHE</link>
+      <guid isPermaLink="false">Sk84HVD6fHE</guid>
+      <pubDate>Thu, 30 Apr 2026 06:00:31 +0000</pubDate>
+      <enclosure url="https://zokosting.github.io/rssyt/podcasts/Teories de la relativitat/Sk84HVD6fHE.m4a" type="audio/x-m4a" length="15756565" />
+      <itunes:duration>2505</itunes:duration>
+      <itunes:image href="https://zokosting.github.io/rssyt/podcasts/Teories de la relativitat/Sk84HVD6fHE.jpg" />
+    </item>
+  </channel>
+</rss>
