@@ -917,5 +917,30 @@ Facebook: https://www.facebook.com/CarneCruda2.0/</description>
       <itunes:duration>747</itunes:duration>
       <itunes:image href="https://zokosting.github.io/rssyt/podcasts/Carne Cruda/UNPl4-AKSyY.jpg" />
     </item>
+    <item>
+      <title>T13x11 - AIpocalipsis: ¿la Inteligencia Artificial puede matarnos? (CARNE CRUDA)</title>
+      <description>La dimisión del ingeniero Jacob Coxon de Anthropic señalando que la IA podría matarnos ha desatado una tormenta en el sector y ha puesto de acuerdo a los grandes gigantes tecnológicos que ahora piden frenar su desarrollo. Analizamos si realmente existe un peligro real, qué se esconde detrás de todos estos movimientos y cómo se está regulando o se podría regular la IA.  Con Carlos del Castillo, periodista especializado en derechos digitales en elDiario.es (http://eldiario.es/); Marta Peirano, escritora y periodista especializada en tecnología y Julián Estévez, investigador en robótica e inteligencia artificial. Y vuelve Al Pil Pil para, ahora sí: matarnos de risa.
+
+Puedes ver aquí la sección de Alpilpil: https://youtu.be/UNPl4-AKSyY
+
+
+Más información aquí: https://www.eldiario.es/132_ce3946 
+
+___
+
+Carne Cruda, el programa de radio que tú haces posible. 
+Hazte productor o productora aquí: http://carnecruda.es/hazte_productor/
+
+Nuestras redes sociales:
+Instagram: https://www.instagram.com/carnecruda/ 
+Twitter: https://twitter.com/carnecrudaradio
+Facebook: https://www.facebook.com/CarneCruda2.0/</description>
+      <link>https://www.youtube.com/watch?v=hZTHNBtmVBs</link>
+      <guid isPermaLink="false">hZTHNBtmVBs</guid>
+      <pubDate>Thu, 17 Sep 2026 13:00:21 +0000</pubDate>
+      <enclosure url="https://zokosting.github.io/rssyt/podcasts/Carne Cruda/hZTHNBtmVBs.m4a" type="audio/x-m4a" length="18560368" />
+      <itunes:duration>2952</itunes:duration>
+      <itunes:image href="https://zokosting.github.io/rssyt/podcasts/Carne Cruda/hZTHNBtmVBs.jpg" />
+    </item>
   </channel>
 </rss>
