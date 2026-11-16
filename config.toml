@@ -137,3 +137,11 @@ folder        = "Fitness Revolucionario"
 backlog       = 1
 backlog_order = "desc"
 pubdate       = "upload"
+
+[[podcasts]]
+url           = "https://www.youtube.com/@ElNichoPodcast"
+title         = "El Nicho"
+folder        = "El Nicho"
+backlog       = 1
+backlog_order = "desc"
+pubdate       = "upload"
