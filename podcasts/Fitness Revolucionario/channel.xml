@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Fitness Revolucionario</title>
+    <link>https://www.youtube.com/@Fitnessrevolucionario</link>
+    <description>Fitness Revolucionario</description>
+    <atom:link href="https://zokosting.github.io/rssyt/podcasts/Fitness Revolucionario/channel.xml" rel="self" type="application/rss+xml" />
+    <itunes:image href="https://zokosting.github.io/rssyt/podcasts/Fitness Revolucionario/cover.jpg" />
+    <image>
+      <url>https://zokosting.github.io/rssyt/podcasts/Fitness Revolucionario/cover.jpg</url>
+      <title>Fitness Revolucionario</title>
+      <link>https://www.youtube.com/@Fitnessrevolucionario</link>
+    </image>
+    <item>
+      <title>Estoicismo para el Deporte y la Vida</title>
+      <description>En esta charla exploramos cómo las enseñanzas de los estoicos, combinadas con los descubrimientos de la psicología moderna, pueden ayudarnos a rendir mejor en el deporte y a afrontar mejor los desafíos de la vida.
+
+Más detalle sobre Invicto: https://www.fitnessrevolucionario.com/libro-invicto/
+
+Apúntate a mi newsletter aquí: https://fitnessrevolucionario.com/lista</description>
+      <link>https://www.youtube.com/watch?v=Gpjbe1LQmQo</link>
+      <guid isPermaLink="false">Gpjbe1LQmQo</guid>
+      <pubDate>Tue, 24 Nov 2026 09:17:25 +0000</pubDate>
+      <enclosure url="https://zokosting.github.io/rssyt/podcasts/Fitness Revolucionario/Gpjbe1LQmQo.m4a" type="audio/x-m4a" length="12289741" />
+      <itunes:duration>1933</itunes:duration>
+      <itunes:image href="https://zokosting.github.io/rssyt/podcasts/Fitness Revolucionario/Gpjbe1LQmQo.jpg" />
+    </item>
+  </channel>
+</rss>

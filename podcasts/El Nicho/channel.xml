@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>El Nicho</title>
+    <link>https://www.youtube.com/@ElNichoPodcast</link>
+    <description>El Nicho</description>
+    <atom:link href="https://zokosting.github.io/rssyt/podcasts/El Nicho/channel.xml" rel="self" type="application/rss+xml" />
+    <itunes:image href="https://zokosting.github.io/rssyt/podcasts/El Nicho/cover.jpg" />
+    <image>
+      <url>https://zokosting.github.io/rssyt/podcasts/El Nicho/cover.jpg</url>
+      <title>El Nicho</title>
+      <link>https://www.youtube.com/@ElNichoPodcast</link>
+    </image>
+    <item>
+      <title>EL NICHO 4x10 - Lucía Veiga</title>
+      <description>Lucía Veiga merecía focos y alfombra roja pero la técnica jugó a la ruleta rusa y el vídeo se fue a la p***. Fundido a negro. Misterio puro. Tragedia griega. O quizás no tanto.
+
+Sí, no hay vídeo, pero amigos, esto es un podcast, no una sala de cine. Si la conversación es buena, no hace falta ver nada y, por suerte, Lucía y David nos regalaron una joya de charla divertida, íntima, con mucho cariño y mucha mala host**.
+
+No todo hay que verlo. A veces basta con cerrar los ojos y escuchar. Sintámonos como Ray, como Stevie Wonder, como Stephen Hawking… Espera, ese no era ciego. Bueno, ya ‘veis’ por dónde vamos. 
+
+El Nicho, cuando menos te lo esperas, hace CHAS y aparece a tu lado. Chenoa estaría orgullosa de este regreso ninja para despedirnos con estilo. 
+
+P.D. No hay vídeo pero… hay alguna sorpresita. ¡Al loro!
+
+𝗖𝗢𝗠𝗣𝗥𝗔 𝗟𝗢𝗦 𝗣𝗘𝗥𝗙𝗨𝗠𝗘𝗦 𝗘𝗫𝗖𝗟𝗨𝗦𝗜𝗩𝗢𝗦 𝗗𝗘𝗟 𝗡𝗜𝗖𝗛𝗢:
+https://www.atelierdelperfume.com/el-nicho/
+ 
+𝗖𝗢𝗡𝗧𝗔𝗖𝗧𝗢: elnichoneno@gmail.com</description>
+      <link>https://www.youtube.com/watch?v=fFSkilAt5sg</link>
+      <guid isPermaLink="false">fFSkilAt5sg</guid>
+      <pubDate>Fri, 10 Apr 2026 10:01:07 +0000</pubDate>
+      <enclosure url="https://zokosting.github.io/rssyt/podcasts/El Nicho/fFSkilAt5sg.m4a" type="audio/x-m4a" length="30428511" />
+      <itunes:duration>4789</itunes:duration>
+      <itunes:image href="https://zokosting.github.io/rssyt/podcasts/El Nicho/fFSkilAt5sg.jpg" />
+    </item>
+  </channel>
+</rss>
