@@ -145,3 +145,11 @@ folder        = "El Nicho"
 backlog       = 1
 backlog_order = "desc"
 pubdate       = "upload"
+
+[[podcasts]]
+url           = "https://www.youtube.com/@radiocable"
+title         = "La Cafetera"
+folder        = "La Cafetera"
+backlog       = 1
+backlog_order = "desc"
+pubdate       = "upload"

@@ -358,5 +358,53 @@
     "mime": "audio/x-m4a",
     "filesize": 31855416,
     "thumbnail": "Q3AzZdNkoWE.jpg"
+  },
+  {
+    "id": "mcAl0kPupbw",
+    "title": "Un Amigo Me Contó / #31 Todos hemos sido esa persona / Lucas Crespo y Pepe López",
+    "description": "",
+    "timestamp": 1792960411,
+    "duration": 4328,
+    "link": "https://www.youtube.com/watch?v=mcAl0kPupbw",
+    "file": "mcAl0kPupbw.m4a",
+    "mime": "audio/x-m4a",
+    "filesize": 27444385,
+    "thumbnail": "mcAl0kPupbw.jpg"
+  },
+  {
+    "id": "LePnJzPWlSA",
+    "title": "Un Amigo Me Contó / #32 Amor moderno / Con Pilar Sordo",
+    "description": "",
+    "timestamp": 1793560247,
+    "duration": 4971,
+    "link": "https://www.youtube.com/watch?v=LePnJzPWlSA",
+    "file": "LePnJzPWlSA.m4a",
+    "mime": "audio/x-m4a",
+    "filesize": 31526694,
+    "thumbnail": "LePnJzPWlSA.jpg"
+  },
+  {
+    "id": "QJEAPR29g20",
+    "title": "Un Amigo Me Contó / #33 Nadie nos enseñó a / Lucas Crespo y Pepe Lopez",
+    "description": "",
+    "timestamp": 1794166657,
+    "duration": 5561,
+    "link": "https://www.youtube.com/watch?v=QJEAPR29g20",
+    "file": "QJEAPR29g20.m4a",
+    "mime": "audio/x-m4a",
+    "filesize": 35287883,
+    "thumbnail": "QJEAPR29g20.jpg"
+  },
+  {
+    "id": "MZNDEjhC2V8",
+    "title": "Un Amigo Me Contó / #34 Aprender a ser humano / Emilio Antun, Pepe López y Lucas Crespo",
+    "description": "",
+    "timestamp": 1794773762,
+    "duration": 5282,
+    "link": "https://www.youtube.com/watch?v=MZNDEjhC2V8",
+    "file": "MZNDEjhC2V8.m4a",
+    "mime": "audio/x-m4a",
+    "filesize": 33530952,
+    "thumbnail": "MZNDEjhC2V8.jpg"
   }
 ]
