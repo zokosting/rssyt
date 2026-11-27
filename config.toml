@@ -7,7 +7,7 @@ url           = "https://www.youtube.com/@rubensancheztw"
 title         = "Amigo y vecino"
 folder        = "rubensancheztw"
 backlog       = 2
-backlog_order = "asc"
+backlog_order = "desc"
 pubdate       = "upload"
 
 [[podcasts]]
@@ -39,7 +39,7 @@ url           = "https://www.youtube.com/playlist?list=PLc6y_bIejLFHEaLCRdzKumGu
 title         = "El perro andaluz by Manu Sánchez"
 folder        = "RTVE Play - PLc6y_bIejLFHEaLCRdzKumGujaaiNxEvd"
 backlog       = 3
-backlog_order = "asc"
+backlog_order = "desc"
 pubdate       = "upload"
 
 [[podcasts]]
@@ -103,7 +103,7 @@ url           = "https://www.youtube.com/playlist?list=PLQdw2OPxiMCyUrcvJXCbNEBG
 title         = "Sofá y Samantha"
 folder        = "Sofa y Samantha"
 backlog       = 1
-backlog_order = "asc"
+backlog_order = "desc"
 pubdate       = "upload"
 
 [[podcasts]]
@@ -127,7 +127,7 @@ url           = "https://www.youtube.com/playlist?list=WL"
 title         = "Escolta més tard"
 folder        = "Escolta mes tard"
 backlog       = 1
-backlog_order = "asc"
+backlog_order = "desc"
 pubdate       = "upload"
 
 [[podcasts]]
